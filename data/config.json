@@ -1,0 +1,39 @@
+{
+  "edition": "Noviembre 2026",
+  "sponsor": {
+    "name": "Patrocinador de portada disponible",
+    "url": "/secciones/anunciate.html",
+    "color": "#451056"
+  },
+  "admin_whatsapp": "",
+  "member_names": [
+    "Dentista Viajero Odontopediatra",
+    "Partera en Ruta",
+    "Inflables Chickens",
+    "Eco Chopa",
+    "IDEARIA LAB",
+    "Bruja Changuera",
+    "Foro Nómada Cultural",
+    "Asadero Río Frontera",
+    "Ámbar Lashes (por confirmar)",
+    "Jabones Artesanales (por confirmar)"
+  ],
+  "ad_prices": {
+    "Directorio de Colores": "Por definir",
+    "Cupón del mes": "Por definir",
+    "Anuncio destacado": "Por definir",
+    "Patrocinio de portada": "Por definir"
+  },
+  "membership_prices": {
+    "Membresía del colectivo": "Por definir"
+  },
+  "local_content": {
+    "cultura": [],
+    "juegos": [],
+    "comunidad": [],
+    "entrevistas": [],
+    "colores": [],
+    "cupones": []
+  },
+  "feed_url": "/data/noticias.json"
+}
