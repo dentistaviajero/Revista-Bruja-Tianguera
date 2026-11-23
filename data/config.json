@@ -35,5 +35,5 @@
     "colores": [],
     "cupones": []
   },
-  "feed_url": "/data/noticias.json"
+  "feed_url": "https://bruja-noticias.dentistaviajero.workers.dev/api/noticias"
 }
