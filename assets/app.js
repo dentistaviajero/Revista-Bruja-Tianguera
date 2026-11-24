@@ -7,7 +7,7 @@
  let form=document.getElementById('buscar');if(form)form.addEventListener('submit',e=>{e.preventDefault();let q=(document.getElementById('q')?.value||'').trim().toLowerCase();let links=[...document.querySelectorAll('.tile,.preview-card,.mag-card')];let found=links.find(a=>a.textContent.toLowerCase().includes(q));if(found)location.href=found.href;else alert('No se encontró una sección con ese nombre.')});
  let news=[],loadError='';try{let r=await fetch(cfg.feed_url||'/data/noticias.json',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);let payload=await r.json();news=Array.isArray(payload)?payload:(payload.items||[])}catch(e){loadError='No fue posible conectar con el servicio de noticias.'}
  const slug=window.BRUJA_NEWS_SECTION||location.pathname.split('/').pop()?.replace('.html','');
- const aliases={'saberes':['parteria','maternidad','crianza','salud'],'crianza':['crianza','salud','familia'],'asia-pop':['asia-pop'],'gamers':['gamers'],'tecnologia':['tecnologia','ciencia'],'juegos':['gamers','juegos','tcg']};
+ const aliases={'saberes':['saberes','parteria','maternidad'],'crianza':['crianza','salud','familia'],'asia-pop':['asia-pop'],'gamers':['gamers'],'tecnologia':['tecnologia','ciencia'],'juegos':['gamers','juegos','tcg']};
 
  const editorial=Array.isArray(cfg.editorial_articles)?cfg.editorial_articles:[];
  const normalizeSection=x=>String(x||'').trim().toLowerCase();
