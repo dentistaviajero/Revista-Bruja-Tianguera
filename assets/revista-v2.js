@@ -30,12 +30,10 @@ for(const key of sections){
  const card=document.querySelector('.mag-'+key);
  const visual=card?.querySelector('.mag-visual');
  if(!visual)continue;
- const fallback=document.createElement('span');fallback.className='mag-fallback';fallback.textContent=visual.textContent.trim();
- const img=document.createElement('img');img.alt='';img.loading='lazy';img.decoding='async';
- img.src='/assets/botones/'+(key==='clima'?'clima-soleado':key)+'.webp';
- img.addEventListener('error',()=>{img.hidden=true;fallback.style.display='grid'});
- visual.replaceChildren(fallback,img);
+ // Las ilustraciones son fondos CSS; no insertar emojis, imágenes duplicadas ni fallback.
+ visual.replaceChildren();
 }
+
 const clima=document.querySelector('.mag-clima .mag-visual');
 if(!clima)return;
 function weatherImage(d){
