@@ -45,6 +45,41 @@
   "sponsors": [],
   "editorial_articles": [
     {
+      "id": "pinzamiento-tardio-cordon",
+      "section": "saberes",
+      "title": "Un minuto que importa: beneficios de esperar antes de cortar el cordón umbilical",
+      "summary": "Esperar al menos un minuto antes de pinzar el cordón, cuando la situación clínica lo permite, favorece las reservas de hierro del bebé. Conoce sus beneficios y las precauciones.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera · Saberes y Maternidad",
+      "published": true,
+      "url": "/articulo.html?id=pinzamiento-tardio-cordon",
+      "body": [
+        "Al nacer un bebé, el cordón umbilical todavía conecta al recién nacido con la placenta. Durante los primeros instantes, parte de la sangre placentaria puede continuar pasando al bebé. Por eso, en los nacimientos donde las condiciones clínicas lo permiten, no siempre es necesario pinzar el cordón inmediatamente.",
+        "¿Qué significa pinzamiento tardío? Es esperar antes de colocar la pinza que interrumpe la circulación por el cordón. La Organización Mundial de la Salud recomienda no pinzarlo antes de un minuto en los recién nacidos que no necesitan una intervención inmediata que lo impida. Otras guías, como las del Colegio Estadounidense de Obstetras y Ginecólogos (ACOG), recomiendan al menos 30 a 60 segundos en bebés vigorosos, tanto a término como prematuros.",
+        "Más sangre, mejores reservas de hierro. Al permitir una mayor transfusión de sangre desde la placenta, el pinzamiento diferido puede elevar la hemoglobina inicial y mejorar las reservas de hierro durante los primeros meses de vida. El hierro es fundamental para el crecimiento y el desarrollo neurológico; esto no significa que esperar garantice por sí solo un mejor desarrollo cognitivo.",
+        "En bebés prematuros, el pinzamiento diferido también ofrece ventajas importantes. La evidencia muestra beneficios como una menor necesidad de transfusiones y mejores resultados en algunos desenlaces clínicos. La atención debe adaptarse a la edad gestacional, el estado del bebé y los recursos del equipo que atiende el nacimiento.",
+        "¿Hay riesgos? Puede existir un pequeño aumento de la probabilidad de ictericia que requiera fototerapia, especialmente en recién nacidos a término. Por ello, el seguimiento del bebé después del parto y la posibilidad de detectar y tratar la ictericia son importantes.",
+        "¿Y si el bebé necesita ayuda al nacer? La prioridad es asegurar su respiración, circulación y atención inmediata. El momento del pinzamiento debe decidirse según la situación clínica y los protocolos del equipo. También hay circunstancias maternas o placentarias, como una hemorragia importante, que pueden modificar la conducta.",
+        "El pinzamiento tardío no es lo mismo que esperar hasta que el cordón deje de latir, ni significa dejarlo unido a la placenta durante horas o días. La duración óptima puede variar según la situación y las recomendaciones clínicas.",
+        "El papel de la partera moderna. Durante el embarazo, una partera capacitada puede explicar esta práctica, conversar con la familia sobre sus preferencias e incorporarlas al plan de nacimiento. En el parto, el equipo debe valorar la seguridad de la madre y el bebé y coordinar cualquier intervención necesaria. El objetivo no es seguir un reloj a cualquier costo, sino favorecer un nacimiento respetuoso y basado en evidencia.",
+        "Antes del nacimiento, pregunta al personal que te atenderá si realiza pinzamiento diferido, cuánto tiempo suele esperar y en qué circunstancias tendría que modificar el plan. Esta conversación permite tomar decisiones informadas sin perder de vista la seguridad de ambos."
+      ],
+      "sources": [
+        [
+          "Organización Mundial de la Salud: pinzamiento tardío del cordón umbilical",
+          "https://www.who.int/tools/elena/interventions/cord-clamping"
+        ],
+        [
+          "ACOG: Delayed Umbilical Cord Clamping After Birth (Committee Opinion No. 814)",
+          "https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/12/delayed-umbilical-cord-clamping-after-birth"
+        ],
+        [
+          "Cochrane: Effect of timing of umbilical cord clamping and other strategies to influence placental transfusion at preterm birth",
+          "https://www.cochranelibrary.com/"
+        ]
+      ]
+    },
+    {
       "id": "villa-navidena-2026",
       "section": "cultura",
       "title": "La Villa Navideña de Las Choapas toma forma con una Torre Eiffel y una pista de hielo",
