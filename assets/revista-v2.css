@@ -41,3 +41,28 @@
 .mag-clima .mag-visual{background-image:url('/assets/botones/clima-soleado.webp');background-size:cover;background-position:center}
 .mag-card .mag-visual .mag-fallback{display:none}
 .mag-card .mag-visual img[hidden]~.mag-fallback{display:grid}
+
+/* V6: los artes WebP son el unico contenido visual del boton. */
+.mag-card .mag-visual{background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}
+.mag-card .mag-visual .mag-fallback,.mag-card .mag-visual img{display:none!important}
+.mag-actualidad .mag-visual{background-image:url('/assets/botones/actualidad.webp')!important}
+.mag-salud .mag-visual{background-image:url('/assets/botones/salud.webp')!important}
+.mag-saberes .mag-visual{background-image:url('/assets/botones/saberes.webp')!important}
+.mag-ciencia .mag-visual{background-image:url('/assets/botones/ciencia.webp')!important}
+.mag-asia-pop .mag-visual{background-image:url('/assets/botones/asia-pop.webp')!important}
+.mag-gamers .mag-visual{background-image:url('/assets/botones/gamers.webp')!important}
+.mag-belleza .mag-visual{background-image:url('/assets/botones/belleza.webp')!important}
+.mag-juegos .mag-visual{background-image:url('/assets/botones/juegos.webp')!important}
+.mag-espectaculos .mag-visual{background-image:url('/assets/botones/espectaculos.webp')!important}
+.mag-cultura .mag-visual{background-image:url('/assets/botones/cultura.webp')!important}
+.mag-deportes .mag-visual{background-image:url('/assets/botones/deportes.webp')!important}
+.mag-finanzas .mag-visual{background-image:url('/assets/botones/finanzas.webp')!important}
+.mag-colores .mag-visual{background-image:url('/assets/botones/colores.webp')!important}
+.mag-cupones .mag-visual{background-image:url('/assets/botones/cupones.webp')!important}
+.mag-entrevistas .mag-visual{background-image:url('/assets/botones/entrevistas.webp')!important}
+.mag-negocios .mag-visual{background-image:url('/assets/botones/negocios.webp')!important}
+.mag-colectivo .mag-visual{background-image:url('/assets/botones/colectivo.webp')!important}
+.mag-membresias .mag-visual{background-image:url('/assets/botones/membresias.webp')!important}
+.mag-anunciate .mag-visual{background-image:url('/assets/botones/anunciate.webp')!important}
+.mag-participa .mag-visual{background-image:url('/assets/botones/participa.webp')!important}
+.mag-clima .mag-visual{background-image:url('/assets/botones/clima-soleado.webp')!important}
