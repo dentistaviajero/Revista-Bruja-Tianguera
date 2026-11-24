@@ -36,7 +36,7 @@ for(const key of sections){
  img.addEventListener('error',()=>{img.hidden=true;fallback.style.display='grid'});
  visual.replaceChildren(fallback,img);
 }
-const clima=document.querySelector('.mag-clima .mag-visual img');
+const clima=document.querySelector('.mag-clima .mag-visual');
 if(!clima)return;
 function weatherImage(d){
  const w=Number(d.current?.weather_code),t=Number(d.current?.temperature_2m),v=Number(d.current?.wind_speed_10m);
@@ -50,6 +50,6 @@ function weatherImage(d){
 }
 fetch('https://api.open-meteo.com/v1/forecast?latitude=17.9118&longitude=-94.0965&current=temperature_2m,weather_code,wind_speed_10m&wind_speed_unit=kmh&timezone=America%2FMexico_City',{cache:'no-store'})
  .then(r=>{if(!r.ok)throw Error('weather');return r.json()})
- .then(d=>{clima.src='/assets/botones/'+weatherImage(d)+'.webp'})
+ .then(d=>{clima.style.setProperty('background-image',`url('/assets/botones/${weatherImage(d)}.webp')`,'important')})
  .catch(()=>{});
 })();
