@@ -15,7 +15,7 @@ const queries=[
 ["crianza","lactancia materna crianza infancia odontopediatría embarazo"],
 ["belleza","(site:vogue.mx/belleza OR site:vogue.mx/moda OR site:glamour.es/belleza OR site:glamour.es/moda) (cabello OR maquillaje OR moda OR piel OR uñas OR belleza)"],
 ["espectaculos","espectáculos música cine artistas site:xeu.mx OR site:xeva.com.mx"],
-["deportes","deportes Liga MX Veracruz Tabasco site:xeudeportes.mx OR site:xeva.com.mx"],
+["deportes","(site:mediotiempo.com OR site:record.com.mx OR site:espn.com.mx OR site:as.com/mx OR site:tudn.com) (Liga MX OR futbol OR boxeo OR beisbol OR basquetbol OR deporte)"],
 ["cultura","cartelera cultural Veracruz Coatzacoalcos eventos site:uv.mx"],
 ["viral","curiosidades viral cultura internet site:xeu.mx"],
 ["alertas","Protección Civil Veracruz CONAGUA frente frío lluvias sitio oficial"]
@@ -28,6 +28,11 @@ feeds.push({section:"belleza",name:"S Moda · El País",url:"https://feeds.elpai
 // Cine, series y streaming en español: Netflix, Disney+, Prime Video y HBO Max.
 feeds.push({section:"espectaculos",name:"Espinof · Cine y streaming",url:"https://www.espinof.com/feedburner.xml",limit:16});
 feeds.push({section:"espectaculos",name:"SensaCine · Cine y series",url:"https://www.sensacine.com/rss/noticias.xml",limit:16});
+// Deportes: fuentes oficiales o RSS publicados; ESPN directo puede bloquear robots, por eso Google Noticias indexa sus notas.
+feeds.push({section:"deportes",name:"Mediotiempo · RSS",url:"https://www.mediotiempo.com/rss/noticia.xml",limit:12});
+feeds.push({section:"deportes",name:"Marca USA · Liga MX vía Google Noticias",url:"https://news.google.com/rss/search?q="+encodeURIComponent("site:us.marca.com futbol Liga MX when:3d")+"&hl=es-419&gl=MX&ceid=MX:es-419",limit:8});
+feeds.push({section:"deportes",name:"BBC Sport · Internacional",url:"https://feeds.bbci.co.uk/sport/rss.xml",limit:8});
+feeds.push({section:"deportes",name:"Formula 1 · Oficial",url:"https://www.formula1.com/en/latest/all.xml",limit:8});
 feeds.push({section:"internacional",name:"Noticias ONU",url:"https://news.un.org/feed/subscribe/es/news/all/rss.xml",limit:1});
 const decode=s=>(s||"").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,"$1").replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&#(\d+);/g,(_,n)=>String.fromCharCode(+n)).replace(/\s+/g," ").trim();
 function field(s,t){const m=s.match(new RegExp("<"+t+"(?:\\s[^>]*)?>([\\s\\S]*?)<\\/"+t+">","i"));return m?decode(m[1]):""}
