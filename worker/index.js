@@ -1,25 +1,27 @@
 // Bruja Noticias v2. Fuentes RSS/Atom y Google Noticias como índice de enlaces.
 const ORIGIN="https://brujarevista.pages.dev";
+// Fuentes editoriales regionales: Google Noticias indexa enlaces, no reproduce artículos.
+// La disponibilidad de resultados depende de la indexación de cada medio.
 const queries=[
-["veracruz","Veracruz Coatzacoalcos Minatitlán Acayucan site:xeu.mx OR site:xeva.com.mx"],
-["sureste","Tabasco Villahermosa Huimanguillo site:xeva.com.mx OR site:tabascohoy.com"],
-["coatzacoalcos","Coatzacoalcos Minatitlán Agua Dulce Nanchital Veracruz"],
+["veracruz","site:xeu.mx/estado-de-veracruz Veracruz noticias"],
+["coatzacoalcos","site:diariodelistmo.com Coatzacoalcos Veracruz"],
+["sureste","(site:diariodelistmo.com Agua Dulce OR site:diariodelistmo.com Nanchital OR site:diariodelistmo.com Moloacán OR site:tabascohoy.com Tabasco)"],
+["las-choapas","(site:presencia.mx Las Choapas OR site:diariodelistmo.com Las Choapas OR site:laschoapas.gob.mx Las Choapas)"],
 ["mexico","México noticias nacionales site:xeu.mx OR site:cnnespanol.cnn.com OR site:jornada.com.mx"],
 ["internacional","mundo noticias internacionales site:cnnespanol.cnn.com OR site:xeu.mx"],
 ["finanzas","economía dólar inflación México site:xeu.mx OR site:eleconomista.com.mx"],
 ["ciencia","ciencia tecnología inteligencia artificial IA site:xeu.mx OR site:unam.mx"],
-["salud","salud investigación médica tratamientos vacunas site:who.int OR site:unam.mx OR site:xeu.mx"],
+["salud","salud investigación médica tratamientos vacunas site:unam.mx OR site:xeu.mx"],
 ["crianza","lactancia materna crianza infancia odontopediatría embarazo"],
 ["belleza","belleza cosmética dermatología moda tendencias cuidado de piel"],
 ["espectaculos","espectáculos música cine artistas site:xeu.mx OR site:xeva.com.mx"],
 ["deportes","deportes Liga MX Veracruz Tabasco site:xeudeportes.mx OR site:xeva.com.mx"],
-["cultura","cartelera cultural Veracruz Coatzacoalcos eventos site:pececitosveracruz.com OR site:uv.mx"],
+["cultura","cartelera cultural Veracruz Coatzacoalcos eventos site:uv.mx"],
 ["viral","curiosidades viral cultura internet site:xeu.mx"],
 ["alertas","Protección Civil Veracruz CONAGUA frente frío lluvias sitio oficial"]
 ];
-const feeds=queries.map(([section,q])=>({section,name:"Google Noticias · selección de fuentes",url:"https://news.google.com/rss/search?q="+encodeURIComponent(q+" when:3d")+"&hl=es-419&gl=MX&ceid=MX:es-419"}));
+const feeds=queries.map(([section,q])=>({section,name:"Google Noticias · enlaces de medios",url:"https://news.google.com/rss/search?q="+encodeURIComponent(q+" when:3d")+"&hl=es-419&gl=MX&ceid=MX:es-419"}));
 feeds.push({section:"internacional",name:"Noticias ONU",url:"https://news.un.org/feed/subscribe/es/news/all/rss.xml",limit:1});
-feeds.push({section:"ciencia",name:"NASA",url:"https://www.nasa.gov/feed/",limit:2});
 const decode=s=>(s||"").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,"$1").replace(/<[^>]+>/g," ").replace(/&amp;/g,"&").replace(/&quot;/g,'"').replace(/&#39;|&apos;/g,"'").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&#(\d+);/g,(_,n)=>String.fromCharCode(+n)).replace(/\s+/g," ").trim();
 function field(s,t){const m=s.match(new RegExp("<"+t+"(?:\\s[^>]*)?>([\\s\\S]*?)<\\/"+t+">","i"));return m?decode(m[1]):""}
 function parse(xml,f){return (xml.match(/<item\b[^>]*>[\s\S]*?<\/item>/gi)||[]).slice(0,f.limit||8).map(x=>{let date=field(x,"pubDate");let ts=Date.parse(date);return {section:f.section,source:field(x,"source")||f.name,title:field(x,"title").slice(0,220),summary:"",url:field(x,"link"),date:Number.isFinite(ts)?new Date(ts).toISOString():null}}).filter(x=>x.title&&/^https:\/\//.test(x.url)&&x.date&&Date.now()-Date.parse(x.date)<7*864e5)}
