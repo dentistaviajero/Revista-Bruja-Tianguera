@@ -42,5 +42,6 @@
     "cupones": []
   },
   "feed_url": "https://bruja-noticias.dentistaviajero.workers.dev/api/noticias",
-  "sponsors": []
+  "sponsors": [],
+  "editorial_articles": []
 }
