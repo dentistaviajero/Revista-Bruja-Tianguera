@@ -16,3 +16,6 @@ El sitio no publica información falsa si falla una fuente: conserva los datos a
 Las fuentes son configurables y pueden fallar o modificar sus formatos. Los feeds de NASA/OMS pueden estar en inglés; no se traduce automáticamente ni se inventan resúmenes. No se recopilan ni reproducen fotografías de terceros.
 
 No se ha desplegado automáticamente el Worker al guardar estos archivos en GitHub; requiere configurarlo en Cloudflare.
+
+## Prioridad de portada
+La respuesta `/api/noticias` incluye `featured` además de `items`. Orden: Las Choapas, Coatzacoalcos, Veracruz, sureste, México e internacional. Noticias regionales con términos de emergencia e impacto territorial explícito pueden adelantarse a noticias ordinarias. El sistema no verifica por sí mismo la gravedad ni la exactitud del hecho; la revisión editorial sigue siendo necesaria. Solo se consideran noticias de las últimas 72 horas para portada. `data/destacada.json` con `active: true` mantiene la prioridad de la selección editorial manual.
