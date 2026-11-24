@@ -11,7 +11,7 @@ const submit=document.getElementById('article-submission');if(submit){submit.add
 /* V4: portadas ilustradas y clima dinámico de Las Choapas. */
 (()=>{
 'use strict';
-const sections=['actualidad','clima','salud','saberes','ciencia','asia-pop','gamers','belleza','juegos','espectaculos','cultura','deportes','finanzas','colores','cupones','entrevistas','negocios','colectivo','membresias','anunciate','participa'];
+const sections=['actualidad','clima','salud','saberes','ciencia','asia-pop','gamers','belleza','juegos','espectaculos','cultura','deportes','finanzas','colores','cupones','entrevistas','negocios','colectivo','proximos-eventos','membresias','anunciate','participa'];
 for(const key of sections){
  const card=document.querySelector('.mag-'+key);
  const visual=card?.querySelector('.mag-visual');
