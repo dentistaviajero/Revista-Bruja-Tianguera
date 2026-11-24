@@ -43,5 +43,264 @@
   },
   "feed_url": "https://bruja-noticias.dentistaviajero.workers.dev/api/noticias",
   "sponsors": [],
-  "editorial_articles": []
+  "editorial_articles": [
+    {
+      "id": "villa-navidena-2026",
+      "section": "cultura",
+      "title": "La Villa Navideña de Las Choapas toma forma con una Torre Eiffel y una pista de hielo",
+      "summary": "Una réplica de 22 metros y la primera pista de hielo del municipio forman parte de los preparativos decembrinos en el Parque Benito Juárez.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=villa-navidena-2026",
+      "body": [
+        "La temporada navideña comienza a tomar forma en el centro de Las Choapas. Los preparativos de la Villa Navideña incluyen una réplica de la Torre Eiffel de aproximadamente 22 metros de altura, una pista de hielo, un nacimiento y otras decoraciones pensadas para la convivencia familiar.",
+        "De acuerdo con información difundida por Alerta MX el 12 de noviembre, David García, uno de los responsables del proyecto, explicó que la estructura de la torre contará con tres niveles y que se prevé permitir el acceso a los dos primeros. El montaje se desarrolla en el Parque Central Benito Juárez.",
+        "El 18 de noviembre, medios regionales reportaron avances en el armado y nivelación de la estructura de la pista. Tras esta fase deberán realizarse los trabajos técnicos necesarios para preparar la superficie de hielo.",
+        "La fecha del 5 de diciembre se ha mencionado como una posibilidad para la inauguración, pero al momento de redactar esta nota no contamos con confirmación oficial de apertura, horarios, costos ni condiciones de acceso. Recomendamos verificar esos datos antes de planear una visita.",
+        "Este reportaje se actualizará cuando el Ayuntamiento publique información definitiva."
+      ],
+      "sources": [
+        [
+          "Alerta MX / Foro Coatza, 12 de noviembre de 2026",
+          "https://forocoatza.com/noticias-locales/torre-eiffel-de-22-metros-sera-uno-de-los-grandes-atractivos-de-la-villa-navidena-en-las-choapas/"
+        ],
+        [
+          "Pulso Digital 360, 18 de noviembre de 2026",
+          "https://www.pulsodigital360.mx/supervisa-jesus-uribe-avances-de-la-primera-pista-de-hielo-en-las-choapas/"
+        ]
+      ]
+    },
+    {
+      "id": "dadiva-coatzacoalcos",
+      "section": "coatzacoalcos",
+      "title": "Dádiva: emprendedores de Coatzacoalcos unen comercio y solidaridad esta Navidad",
+      "summary": "La asociación que reúne a decenas de marcas locales combina ferias comerciales y una campaña de juguetes para niñas y niños de Fertimex.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=dadiva-coatzacoalcos",
+      "body": [
+        "En Coatzacoalcos, la Asociación Dádiva Ayudando a Crecer A.C. se ha consolidado como un punto de encuentro para el emprendimiento regional. En su sitio oficial informa que reúne a más de 80 marcas y que impulsa ferias, espacios para artesanos y actividades comerciales.",
+        "En noviembre, Diario del Istmo informó sobre la tercera campaña navideña de recolección de juguetes destinada a niñas y niños de la colonia Fertimex. La asociación organizó un desayuno con causa para reunir recursos, con la intención de entregar los obsequios el 24 de diciembre.",
+        "La experiencia de Dádiva muestra cómo una red comercial puede integrar la promoción de productos locales con acciones de beneficio comunitario.",
+        "También se ha mencionado una próxima posada o expo-bazar de emprendedores; sin embargo, aún no contamos con fecha, sede y programa verificables para publicarlos. Invitamos a consultar directamente las convocatorias de la asociación."
+      ],
+      "sources": [
+        [
+          "Asociación Dádiva, sitio institucional",
+          "https://dadiva.mx/"
+        ],
+        [
+          "Diario del Istmo, 13 de noviembre de 2026",
+          "https://diariodelistmo.com/coatzacoalcos/lanzan-campana-para-llevar-juguetes-navidenos-a-ninos-de-la-colonia-fertimex-de-coatzacoalcos-20261113-0055.html"
+        ]
+      ]
+    },
+    {
+      "id": "cascanueces-foro-boca",
+      "section": "veracruz",
+      "title": "El Cascanueces anuncia una gala invernal en Foro Boca este 27 de noviembre",
+      "summary": "La Orquesta Filarmónica de Boca del Río y Ballet PROVER preparan una función especial de uno de los clásicos de la temporada.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=cascanueces-foro-boca",
+      "body": [
+        "La cartelera cultural de Veracruz entra en ambiente navideño con El Cascanueces, una gala invernal de ballet anunciada para el viernes 27 de noviembre de 2026 a las 20:00 horas en Foro Boca.",
+        "Según la cartelera oficial de la Orquesta Filarmónica de Boca del Río, el programa reunirá a Ballet PROVER con música de Piotr Ilich Chaikovski interpretada en vivo, bajo la dirección invitada de Roberto Beltrán Zavala.",
+        "La historia de Clara y el universo fantástico del Cascanueces se ha convertido en una tradición escénica asociada a las fiestas decembrinas. Es una oportunidad para acercarse a la danza y a la música sinfónica en la zona conurbada.",
+        "Antes de asistir, consulta la disponibilidad y las condiciones de acceso en la cartelera oficial."
+      ],
+      "sources": [
+        [
+          "Orquesta Filarmónica de Boca del Río, cartelera 2026",
+          "https://www.orquestadeboca.org/cartelera"
+        ]
+      ]
+    },
+    {
+      "id": "dragon-ball-generaciones",
+      "section": "asia-pop",
+      "title": "Dragon Ball: ¿por qué sigue conquistando generaciones después de cuatro décadas?",
+      "summary": "Desde su llegada a la televisión hasta las nuevas plataformas, Goku y sus amigos siguen reuniendo a públicos de distintas edades.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=dragon-ball-generaciones",
+      "body": [
+        "Dragon Ball comenzó como manga de Akira Toriyama en 1984 y llegó al anime televisivo en 1986. Lo que parecía una aventura de artes marciales y fantasía se transformó en una de las franquicias japonesas más reconocibles del mundo.",
+        "Para quienes crecieron con Dragon Ball y Dragon Ball Z, personajes como Goku, Vegeta, Piccolo y Bulma forman parte de recuerdos compartidos. Las retransmisiones, los videojuegos, las películas y las nuevas entregas permitieron que otras generaciones descubrieran la misma historia.",
+        "Parte de su permanencia se explica por una fórmula sencilla: personajes con motivaciones reconocibles, rivalidades que evolucionan, humor y la promesa de superar los propios límites. No todos sus seguidores comenzaron a verla en la misma década, pero muchos comparten escenas, frases y personajes favoritos.",
+        "La muerte de Akira Toriyama en 2024 también motivó homenajes de admiradores alrededor del mundo. En 2026, Dragon Ball continúa presente en conversaciones sobre anime, cultura popular y videojuegos.",
+        "Más que una moda de una época, Dragon Ball es un punto de encuentro entre generaciones."
+      ],
+      "sources": [
+        [
+          "Dragon Ball Official Site",
+          "https://en.dragon-ball-official.com/"
+        ]
+      ]
+    },
+    {
+      "id": "pokemon-tcg-paradox",
+      "section": "juegos",
+      "title": "Pokémon TCG y Yu-Gi-Oh!: las cartas reúnen a nuevos jugadores en Las Choapas",
+      "summary": "Qué es un juego de cartas coleccionables y cómo una comunidad de aficionados encuentra espacios para reunirse.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=pokemon-tcg-paradox",
+      "body": [
+        "Los juegos de cartas coleccionables, conocidos como TCG por sus siglas en inglés, combinan estrategia, colección y convivencia. Cada jugador construye su mazo y participa en partidas siguiendo las reglas de su juego.",
+        "En Pokémon TCG, los jugadores utilizan cartas de Pokémon, Energía y Entrenador para competir. Yu-Gi-Oh! propone un sistema distinto, centrado en monstruos, hechizos y trampas. Ambos cuentan con comunidades internacionales, productos y formatos organizados.",
+        "En Las Choapas, aficionados han comenzado a reunirse en espacios compartidos. Entre ellos se encuentra Paradox, un punto de reunión descrito por colaboradores locales sobre la avenida 20 de Noviembre, cerca de Diana Laura y Poza Rica. La ubicación, horarios y actividades aún deben confirmarse directamente con sus organizadores.",
+        "Estos encuentros muestran que los TCG no son únicamente una colección: también ofrecen oportunidades de socializar, aprender reglas, practicar estrategias y crear amistades. Si deseas participar, pregunta primero por los horarios, el formato y si hay actividades para principiantes."
+      ],
+      "sources": [
+        [
+          "Pokémon TCG, sitio oficial",
+          "https://tcg.pokemon.com/es-es/"
+        ],
+        [
+          "Yu-Gi-Oh! Trading Card Game, sitio oficial",
+          "https://www.yugioh-card.com/"
+        ]
+      ]
+    },
+    {
+      "id": "caries-mancha-blanca",
+      "section": "salud",
+      "title": "La caries puede comenzar como una mancha blanca: cómo reconocer las primeras señales",
+      "summary": "Las lesiones iniciales no siempre son agujeros oscuros; detectar cambios tempranos permite actuar antes de que exista una cavidad.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=caries-mancha-blanca",
+      "body": [
+        "Cuando pensamos en caries solemos imaginar un agujero café o negro. Sin embargo, algunas lesiones comienzan como manchas blancas opacas, de aspecto similar al gis, especialmente cerca de la encía o en zonas donde se acumula placa.",
+        "La mancha puede indicar pérdida de minerales del esmalte. En fases tempranas, cuando la superficie todavía no se ha cavitado, es posible detener o revertir parcialmente el proceso mediante medidas profesionales y hábitos adecuados.",
+        "No toda mancha blanca es caries: también existen alteraciones del desarrollo del esmalte y otras causas. Por eso, el diagnóstico debe hacerlo un profesional de odontología.",
+        "El cepillado con pasta fluorada adecuada a la edad, la reducción de exposiciones frecuentes al azúcar y las revisiones periódicas son herramientas importantes de prevención. Si observas manchas nuevas, sensibilidad o dolor, solicita una valoración sin esperar a que aparezca un agujero."
+      ],
+      "sources": [
+        [
+          "American Dental Association, información sobre caries",
+          "https://www.mouthhealthy.org/all-topics-a-z/cavities"
+        ]
+      ]
+    },
+    {
+      "id": "parteria-moderna",
+      "section": "saberes",
+      "title": "Partería moderna: acompañar a una familia antes, durante y después del nacimiento",
+      "summary": "La atención de una partera capacitada puede abarcar seguimiento prenatal, educación, acompañamiento y cuidados del posparto.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=parteria-moderna",
+      "body": [
+        "La imagen de la partera que llega únicamente cuando el bebé está por nacer no refleja la amplitud de la partería contemporánea. La atención profesional puede comenzar durante el embarazo y continuar después del parto.",
+        "El acompañamiento prenatal incluye valoración de la salud materna y fetal dentro de las competencias profesionales, educación sobre cambios del embarazo, preparación para el nacimiento y reconocimiento oportuno de señales de alarma. También puede incluir ejercicios de preparación psicoprofiláctica y espacios para integrar a la pareja o familia.",
+        "Durante el nacimiento, una partera capacitada ofrece apoyo continuo, observa la evolución y reconoce cuándo es necesario trasladar o referir a un servicio médico. La seguridad depende de una selección apropiada del lugar de nacimiento, preparación para emergencias y colaboración con otros profesionales.",
+        "Después del nacimiento, la atención puede incluir apoyo con la lactancia, vigilancia de la recuperación materna y del recién nacido, orientación para el cuidado cotidiano y acompañamiento emocional. Algunas familias también conservan tradiciones de cuidado y alimentación durante el posparto.",
+        "La partería moderna no sustituye la atención hospitalaria cuando está indicada: forma parte de una atención respetuosa y coordinada, centrada en las necesidades de la madre y su bebé."
+      ],
+      "sources": [
+        [
+          "Organización Mundial de la Salud, salud materna",
+          "https://www.who.int/health-topics/maternal-health"
+        ]
+      ]
+    },
+    {
+      "id": "herramientas-estudio",
+      "section": "ciencia",
+      "title": "Cinco herramientas digitales gratuitas que pueden facilitar el estudio",
+      "summary": "Recursos accesibles para investigar, organizar tareas, estudiar idiomas y trabajar con documentos.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=herramientas-estudio",
+      "body": [
+        "No todas las herramientas para estudiar requieren pagar una suscripción. Hay recursos digitales que pueden ayudar a organizar el trabajo y encontrar información confiable.",
+        "Google Académico permite buscar publicaciones académicas; Zotero ayuda a guardar referencias bibliográficas; Google Drive facilita el trabajo con documentos compartidos; Anki ofrece tarjetas de memoria para repasar; y el traductor integrado de Chrome ayuda a consultar páginas en otros idiomas.",
+        "Una recomendación importante es contrastar la información con fuentes confiables, especialmente cuando se utilizan asistentes de inteligencia artificial. Ninguna aplicación sustituye la lectura crítica.",
+        "Estas herramientas pueden ser útiles en secundaria, preparatoria y universidad, con distintos niveles de acompañamiento según la edad."
+      ],
+      "sources": [
+        [
+          "Google Académico",
+          "https://scholar.google.com/"
+        ],
+        [
+          "Zotero",
+          "https://www.zotero.org/"
+        ],
+        [
+          "Anki",
+          "https://apps.ankiweb.net/"
+        ]
+      ]
+    },
+    {
+      "id": "curiosidades-veracruz",
+      "section": "viral",
+      "title": "Cinco curiosidades de Veracruz para mirar nuestro estado con otros ojos",
+      "summary": "Historia, naturaleza, música y gastronomía: cinco puntos de partida para descubrir la diversidad veracruzana.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=curiosidades-veracruz",
+      "body": [
+        "1. Veracruz fue un puerto decisivo en el intercambio entre América y Europa durante la época colonial; su historia está ligada al comercio marítimo.",
+        "2. El son jarocho combina música, poesía y baile, y se mantiene vivo en fandangos y encuentros comunitarios.",
+        "3. Los Tuxtlas albergan selvas, volcanes y una gran diversidad de especies en una de las regiones naturales más singulares del país.",
+        "4. El café de regiones montañosas como Coatepec es parte de la identidad gastronómica y productiva del estado.",
+        "5. La cultura veracruzana no es uniforme: las tradiciones del norte, el centro, la montaña y el sur muestran expresiones distintas, desde las lenguas indígenas hasta las celebraciones locales.",
+        "Cada uno de estos temas merece una visita, una entrevista o un reportaje propio. Esta lista es una invitación a seguir explorando."
+      ],
+      "sources": [
+        [
+          "Gobierno de Veracruz",
+          "https://www.veracruz.gob.mx/"
+        ]
+      ]
+    },
+    {
+      "id": "vacaciones-familia",
+      "section": "familia",
+      "title": "Vacaciones en familia sin gastar de más: ideas para disfrutar y aprender",
+      "summary": "Lecturas, caminatas, juegos de mesa y actividades creativas pueden transformar los días libres.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=vacaciones-familia",
+      "body": [
+        "Las vacaciones no necesitan un programa costoso para convertirse en recuerdos familiares. Una tarde de lectura compartida, juegos de mesa o una caminata por espacios públicos puede ser una oportunidad de convivencia.",
+        "Una idea es organizar una búsqueda del tesoro con pistas sobre la historia del barrio; otra es crear un pequeño club de lectura donde cada integrante elija un cuento. También pueden preparar recetas sencillas con supervisión adecuada o visitar una actividad cultural gratuita.",
+        "Conviene adaptar las actividades a la edad de los participantes y cuidar aspectos básicos de seguridad, hidratación y protección solar cuando se realizan al aire libre.",
+        "Lo más importante no es llenar cada hora de actividades, sino reservar tiempo para conversar y disfrutar juntos."
+      ],
+      "sources": []
+    },
+    {
+      "id": "economia-navidad",
+      "section": "finanzas",
+      "title": "Cómo preparar un pequeño negocio para las ventas de diciembre sin comprometer sus finanzas",
+      "summary": "Inventario, precios claros y promociones sostenibles pueden ayudar a emprendedores durante la temporada navideña.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=economia-navidad",
+      "body": [
+        "La temporada decembrina suele traer oportunidades de venta para comercios, prestadores de servicios y emprendedores. Pero vender más no siempre significa ganar más.",
+        "Antes de lanzar una promoción conviene calcular el costo real de cada producto o servicio, revisar existencias y definir cuánto margen puede sacrificarse sin generar pérdidas.",
+        "También ayuda mostrar precios visibles, ofrecer métodos de contacto sencillos, establecer fechas claras para pedidos y registrar cada venta y gasto.",
+        "Las colaboraciones con otros negocios pueden ampliar el alcance sin necesidad de invertir grandes cantidades en publicidad. Una promoción compartida debe dejar claras las responsabilidades de cada participante.",
+        "Un cierre de temporada ordenado facilita empezar el siguiente año con mejores decisiones."
+      ],
+      "sources": []
+    }
+  ]
 }
