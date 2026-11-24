@@ -19,13 +19,19 @@
     "Jabones Artesanales (por confirmar)"
   ],
   "ad_prices": {
-    "Directorio de Colores": "Por definir",
-    "Cupón del mes": "Por definir",
-    "Anuncio destacado": "Por definir",
-    "Patrocinio de portada": "Por definir"
+    "Directorio general": "$50 MXN/mes",
+    "Directorio especializado verificado": "$80 MXN/mes",
+    "Cupón estándar": "$100 MXN/mes",
+    "Cupón destacado": "$180 MXN/mes",
+    "Logotipo patrocinador": "$300 MXN/mes",
+    "Patrocinador principal": "$600 MXN/mes",
+    "Reportaje comercial fotográfico": "$600 MXN",
+    "Reportaje con video corto": "$1,200 MXN"
   },
   "membership_prices": {
-    "Membresía del colectivo": "Por definir"
+    "Comunidad": "Gratis",
+    "Impulso": "$150 MXN/mes",
+    "Crecimiento": "$350 MXN/mes"
   },
   "local_content": {
     "cultura": [],
@@ -35,5 +41,6 @@
     "colores": [],
     "cupones": []
   },
-  "feed_url": "https://bruja-noticias.dentistaviajero.workers.dev/api/noticias"
+  "feed_url": "https://bruja-noticias.dentistaviajero.workers.dev/api/noticias",
+  "sponsors": []
 }
