@@ -16,3 +16,28 @@
 
 /* Tarjetas de integrantes con logotipos originales */
 .member-card{text-align:center;display:flex;flex-direction:column;align-items:center;gap:9px}.member-card strong{display:block}.member-card small{display:block}.member-logo{height:132px;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:14px;background:#fff}.member-logo img{width:100%;height:100%;object-fit:contain}.member-logo.missing-logo{background:#f4edf5;color:#765e7a}.member-logo.missing-logo:after{content:'Logotipo pendiente de subir';font-size:12px}.member-logo.missing-logo span{font-size:12px}
+
+/* V5: restaurar ilustraciones de portada aunque falle o se retrase JavaScript. */
+.mag-actualidad .mag-visual{background-image:url('/assets/botones/actualidad.webp');background-size:cover;background-position:center}
+.mag-salud .mag-visual{background-image:url('/assets/botones/salud.webp');background-size:cover;background-position:center}
+.mag-saberes .mag-visual{background-image:url('/assets/botones/saberes.webp');background-size:cover;background-position:center}
+.mag-ciencia .mag-visual{background-image:url('/assets/botones/ciencia.webp');background-size:cover;background-position:center}
+.mag-asia-pop .mag-visual{background-image:url('/assets/botones/asia-pop.webp');background-size:cover;background-position:center}
+.mag-gamers .mag-visual{background-image:url('/assets/botones/gamers.webp');background-size:cover;background-position:center}
+.mag-belleza .mag-visual{background-image:url('/assets/botones/belleza.webp');background-size:cover;background-position:center}
+.mag-juegos .mag-visual{background-image:url('/assets/botones/juegos.webp');background-size:cover;background-position:center}
+.mag-espectaculos .mag-visual{background-image:url('/assets/botones/espectaculos.webp');background-size:cover;background-position:center}
+.mag-cultura .mag-visual{background-image:url('/assets/botones/cultura.webp');background-size:cover;background-position:center}
+.mag-deportes .mag-visual{background-image:url('/assets/botones/deportes.webp');background-size:cover;background-position:center}
+.mag-finanzas .mag-visual{background-image:url('/assets/botones/finanzas.webp');background-size:cover;background-position:center}
+.mag-colores .mag-visual{background-image:url('/assets/botones/colores.webp');background-size:cover;background-position:center}
+.mag-cupones .mag-visual{background-image:url('/assets/botones/cupones.webp');background-size:cover;background-position:center}
+.mag-entrevistas .mag-visual{background-image:url('/assets/botones/entrevistas.webp');background-size:cover;background-position:center}
+.mag-negocios .mag-visual{background-image:url('/assets/botones/negocios.webp');background-size:cover;background-position:center}
+.mag-colectivo .mag-visual{background-image:url('/assets/botones/colectivo.webp');background-size:cover;background-position:center}
+.mag-membresias .mag-visual{background-image:url('/assets/botones/membresias.webp');background-size:cover;background-position:center}
+.mag-anunciate .mag-visual{background-image:url('/assets/botones/anunciate.webp');background-size:cover;background-position:center}
+.mag-participa .mag-visual{background-image:url('/assets/botones/participa.webp');background-size:cover;background-position:center}
+.mag-clima .mag-visual{background-image:url('/assets/botones/clima-soleado.webp');background-size:cover;background-position:center}
+.mag-card .mag-visual .mag-fallback{display:none}
+.mag-card .mag-visual img[hidden]~.mag-fallback{display:grid}
