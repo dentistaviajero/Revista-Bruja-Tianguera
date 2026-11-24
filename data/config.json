@@ -105,7 +105,8 @@
           "https://www.pulsodigital360.mx/supervisa-jesus-uribe-avances-de-la-primera-pista-de-hielo-en-las-choapas/"
         ]
       ],
-      "image_caption": "Imagen ilustrativa creada con inteligencia artificial (IA). Recreación artística de la Torre Eiffel iluminada y la pista de patinaje de la Villa Navideña de Las Choapas, Veracruz. No corresponde a una fotografía real del evento."
+      "image_caption": "Imagen ilustrativa creada con inteligencia artificial (IA). Recreación artística de la Torre Eiffel iluminada y la pista de patinaje de la Villa Navideña de Las Choapas, Veracruz. No corresponde a una fotografía real del evento.",
+      "image": "/assets/portadas/foro-nomada.webp"
     },
     {
       "id": "dadiva-coatzacoalcos",
@@ -134,7 +135,7 @@
           "https://dadiva.mx/"
         ]
       ],
-      "image": "/assets/bazar-dadiva-portada.svg"
+      "image": "/assets/portadas/coatzacoalcos.webp"
     },
     {
       "id": "cascanueces-foro-boca",
