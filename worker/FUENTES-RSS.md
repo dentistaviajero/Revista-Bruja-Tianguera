@@ -26,7 +26,7 @@ Regla: conservar secciones y fuentes existentes al ampliar el Worker; actualizar
 - gamers: Nintenderos https://www.nintenderos.com/feed/ ; 3DJuegos https://www.3djuegos.com/feedburner.xml ; Xataka México; LEVEL UP (RSS por verificar); Vandal http://www.vandal.net/xml.cgi (HTTP; verificar).
 - asia-pop: Soompi https://www.soompi.com/feed (principalmente inglés); Crunchyroll Noticias (RSS por verificar).
 - cultura / espectaculos / deportes: La Jornada https://www.jornada.com.mx/rss (seleccionar canales temáticos específicos).
-- belleza / moda: Vogue México y Glamour México (RSS por verificar).
+- belleza / moda: **Vogue México** `https://www.vogue.mx/feed/rss`, **Vogue España** `https://www.vogue.es/feed/rss`, **S Moda (El País)** `https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/section/smoda`. Identificados como canales RSS/Atom, con lectura efectiva desde Cloudflare pendiente de comprobar. Excluir ¡HOLA! y filtrar titulares a maquillaje, cabello, moda, uñas, cosmética, piel, tratamientos y perfumes.
 - gastronomia: Directo al Paladar México (RSS por verificar).
 - viajes: México Desconocido (RSS por verificar).
 - viral / sociedad: selección editorial y medios generales, con verificación de hechos y sin RSS definido.
