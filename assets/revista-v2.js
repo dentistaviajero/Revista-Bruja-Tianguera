@@ -7,3 +7,35 @@ if(root){const input=document.getElementById('directory-query');fetch('/data/dir
 const featured=document.getElementById('featured-title');if(featured){Promise.all([fetch('/data/destacada.json').then(r=>r.json()).catch(()=>({})),fetch('/data/config.json').then(r=>r.json()).catch(()=>({}))]).then(async([manual,cfg])=>{let n=manual.active&&manual.title?manual:null;if(!n){try{const r=await fetch(cfg.feed_url||'/data/noticias.json');const d=await r.json();n=(Array.isArray(d)?d:d.items||[]).find(x=>x.title&&x.url)}catch(e){}}if(n){featured.textContent=n.title;document.getElementById('featured-summary').textContent=n.summary||'Lee la información en su fuente original.';const a=document.getElementById('featured-link');if(/^https:\/\//.test(n.url||'')){a.href=n.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Leer fuente original ↗'}if(/^https:\/\//.test(n.image||'')||/^\/assets\//.test(n.image||'')){const img=document.getElementById('featured-photo');img.style.backgroundImage='url('+JSON.stringify(n.image)+')';img.textContent=''}}const slots=document.querySelectorAll('.sponsor-slot');const sponsors=Array.isArray(cfg.sponsors)?cfg.sponsors.slice(0,3):[];sponsors.forEach((n,i)=>{if(!slots[i]||!/^https:\/\//.test(n.url||''))return;slots[i].href=n.url;slots[i].target='_blank';slots[i].rel='noopener noreferrer';slots[i].replaceChildren();if(/^https:\/\//.test(n.logo||'')||/^\/assets\//.test(n.logo||'')){const img=document.createElement('img');img.src=n.logo;img.alt='Logotipo de '+(n.nombre||'patrocinador');slots[i].append(img)}else slots[i].textContent=n.nombre||'Patrocinador'})})}
 const submit=document.getElementById('article-submission');if(submit){submit.addEventListener('submit',async e=>{e.preventDefault();const f=new FormData(submit),images=[...submit.querySelector('input[type=file]').files];const msg=['PROPUESTA DE ARTÍCULO — BRUJA TIANGÜERA','Autor: '+f.get('autor'),'Contacto: '+f.get('contacto'),'Sección: '+f.get('seccion'),'Título: '+f.get('titulo'),'Lugar y fecha: '+f.get('lugar'),'Texto: '+f.get('texto'),'Fotos seleccionadas: '+images.map(x=>x.name).join(', '),'Envío para revisión editorial; NO autorizo publicación automática.'].join('\n\n');const status=document.getElementById('submission-status');let cfg={};try{cfg=await(await fetch('/data/config.json')).json()}catch(err){}const phone=String(cfg.admin_whatsapp||'').replace(/\D/g,'');if(phone){window.open('https://wa.me/'+(phone.length===10?'52'+phone:phone)+'?text='+encodeURIComponent(msg),'_blank','noopener');status.textContent='Se abrió WhatsApp con el texto. Presiona Enviar y adjunta manualmente las fotografías seleccionadas; los archivos NO se adjuntan automáticamente.'}else{try{await navigator.clipboard.writeText(msg);status.textContent='Texto copiado. Falta configurar el WhatsApp editorial. Conserva las fotografías y envíalas por separado cuando tengas el contacto.'}catch(err){status.textContent='Falta configurar WhatsApp editorial. Copia este texto y consérvalo: '+msg}}})}
 })();
+
+/* V4: portadas ilustradas y clima dinámico de Las Choapas. */
+(()=>{
+'use strict';
+const sections=['actualidad','clima','salud','saberes','ciencia','asia-pop','gamers','belleza','juegos','espectaculos','cultura','deportes','finanzas','colores','cupones','entrevistas','negocios','colectivo','membresias','anunciate','participa'];
+for(const key of sections){
+ const card=document.querySelector('.mag-'+key);
+ const visual=card?.querySelector('.mag-visual');
+ if(!visual)continue;
+ const fallback=document.createElement('span');fallback.className='mag-fallback';fallback.textContent=visual.textContent.trim();
+ const img=document.createElement('img');img.alt='';img.loading='lazy';img.decoding='async';
+ img.src='/assets/botones/'+(key==='clima'?'clima-soleado':key)+'.webp';
+ img.addEventListener('error',()=>{img.hidden=true;fallback.style.display='grid'});
+ visual.replaceChildren(fallback,img);
+}
+const clima=document.querySelector('.mag-clima .mag-visual img');
+if(!clima)return;
+function weatherImage(d){
+ const w=Number(d.current?.weather_code),t=Number(d.current?.temperature_2m),v=Number(d.current?.wind_speed_10m);
+ if([95,96,99].includes(w))return 'clima-tormenta';
+ if(v>=70)return 'clima-viento';
+ if([51,53,55,56,57,61,63,65,66,67,80,81,82].includes(w))return 'clima-lluvia';
+ if(t>=38)return 'clima-calor';
+ if(t<20)return 'clima-frio';
+ if([1,2,3,45,48].includes(w))return 'clima-nublado';
+ return 'clima-soleado';
+}
+fetch('https://api.open-meteo.com/v1/forecast?latitude=17.9118&longitude=-94.0965&current=temperature_2m,weather_code,wind_speed_10m&wind_speed_unit=kmh&timezone=America%2FMexico_City',{cache:'no-store'})
+ .then(r=>{if(!r.ok)throw Error('weather');return r.json()})
+ .then(d=>{clima.src='/assets/botones/'+weatherImage(d)+'.webp'})
+ .catch(()=>{});
+})();
