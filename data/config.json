@@ -45,6 +45,30 @@
   "sponsors": [],
   "editorial_articles": [
     {
+      "id": "liguilla-apertura-2026-cuartos",
+      "section": "deportes",
+      "title": "¡Arranca la Liguilla! Ocho equipos buscan el título del Apertura 2026",
+      "summary": "La fase final del futbol mexicano reúne a ocho equipos en busca del campeonato. Conoce los cruces anunciados y la invitación de Bruja Tiangüera a visibilizar el deporte regional.",
+      "date": "2026-11-24",
+      "author": "Redacción Bruja Tiangüera · Deportes",
+      "published": true,
+      "url": "/articulo.html?id=liguilla-apertura-2026-cuartos",
+      "body": [
+        "El futbol mexicano entra en su etapa más emocionante. Después de 17 jornadas, ocho equipos consiguieron su clasificación a los cuartos de final del Apertura 2026, y esta semana comenzará la batalla por el campeonato.",
+        "Las Chivas de Guadalajara llegan como líderes generales con 33 puntos, después de vencer 1-0 a Cruz Azul en la última jornada. La Máquina terminó en segundo lugar con 32 unidades, seguida por América con 30.",
+        "Así se jugarían los cuartos de final, de acuerdo con la información recopilada para esta nota: Toluca vs. Atlas y Monterrey vs. América, miércoles 25 de noviembre; Pachuca vs. Chivas y León vs. Cruz Azul, jueves 26 de noviembre. Los partidos de vuelta están previstos para el 28 y 29 de noviembre. Consulta la Liga MX para confirmar horarios y posibles cambios antes de cada encuentro.",
+        "Chivas parte con la ventaja de haber terminado como líder general, aunque deberá enfrentar a Pachuca, un equipo que buscará sorprender al Guadalajara. Cruz Azul intentará defender su campeonato ante León, mientras que América protagonizará una de las series más atractivas frente a Monterrey. Por su parte, Atlas y Toluca disputarán una eliminatoria que promete intensidad.",
+        "Aunque los grandes encuentros se disputan en estadios nacionales, la pasión por el futbol se comparte en las canchas, hogares y espacios de reunión de Las Choapas, Agua Dulce, Nanchital y Coatzacoalcos.",
+        "Desde Revista Bruja Tiangüera queremos abrir también un espacio para el deporte de nuestra región: equipos locales, ligas infantiles, deportistas destacados y competencias comunitarias. Porque el deporte no solamente se vive en los grandes estadios: también comienza en nuestras propias canchas."
+      ],
+      "sources": [
+        [
+          "Liga MX — información oficial de partidos y resultados",
+          "https://ligamx.net/"
+        ]
+      ]
+    },
+    {
       "id": "pinzamiento-tardio-cordon",
       "section": "saberes",
       "title": "Un minuto que importa: beneficios de esperar antes de cortar el cordón umbilical",
