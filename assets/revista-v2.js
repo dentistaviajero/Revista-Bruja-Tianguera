@@ -37,13 +37,23 @@ function weatherImage(d){
  if([95,96,99].includes(w))return 'clima-tormenta';
  if(v>=70)return 'clima-viento';
  if(Number.isFinite(t)&&d.current?.temperature_2m!=null&&t<20)return 'clima-frio';
- if([51,53,55,56,57,61,63,65,66,67,80,81,82].includes(w))return 'clima-lluvia';
+ if(Number(d.current?.precipitation)>0||[51,53,55,56,57,61,63,65,66,67,80,81,82].includes(w))return 'clima-lluvia';
  if(t>=38)return 'clima-calor';
  if([1,2,3,45,48].includes(w))return 'clima-nublado';
  return 'clima-soleado';
 }
-fetch('https://api.open-meteo.com/v1/forecast?latitude=17.9118&longitude=-94.0965&current=temperature_2m,weather_code,wind_speed_10m&wind_speed_unit=kmh&timezone=America%2FMexico_City',{cache:'no-store'})
+fetch('https://api.open-meteo.com/v1/forecast?latitude=17.9118&longitude=-94.0965&current=temperature_2m,weather_code,wind_speed_10m,precipitation&wind_speed_unit=kmh&timezone=America%2FMexico_City',{cache:'no-store'})
  .then(r=>{if(!r.ok)throw Error('weather');return r.json()})
- .then(d=>{clima.style.setProperty('background-image',`url('/assets/botones/${weatherImage(d)}.webp')`,'important')})
+ .then(d=>{
+ const state=weatherImage(d);
+ clima.style.setProperty('background-image',`url('/assets/botones/${state}.webp')`,'important');
+ if(state==='clima-lluvia'||state==='clima-tormenta'){
+ const style=document.createElement('style');
+ style.textContent='.mag-clima .mag-visual{position:relative;overflow:hidden}.chopa-rain{position:absolute;inset:0;pointer-events:none;overflow:hidden}.chopa-rain i{position:absolute;top:-30px;width:2px;height:24px;background:linear-gradient(transparent,rgba(220,245,255,.85));animation:chopa-rain-fall linear infinite}@keyframes chopa-rain-fall{to{transform:translate(-25px,400px)}}@media(prefers-reduced-motion:reduce){.chopa-rain{display:none}}';
+ document.head.append(style);
+ const layer=document.createElement('span');layer.className='chopa-rain';layer.setAttribute('aria-hidden','true');
+ for(let i=0;i<24;i++){const drop=document.createElement('i');drop.style.left=(i*37%110)+'%';drop.style.animationDuration=(.65+(i%5)*.13)+'s';drop.style.animationDelay=(-i*.17)+'s';layer.append(drop)}clima.append(layer);
+ }
+ })
  .catch(()=>{});
 })();
