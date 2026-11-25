@@ -38,7 +38,7 @@ function weatherImage(d){
  if(v>=70)return 'clima-viento';
  if(Number.isFinite(t)&&d.current?.temperature_2m!=null&&t<20)return 'clima-frio';
  if(Number(d.current?.precipitation)>0||[51,53,55,56,57,61,63,65,66,67,80,81,82].includes(w))return 'clima-lluvia';
- if(t>=38)return 'clima-calor';
+ if(t>37)return 'clima-calor';
  if([1,2,3,45,48].includes(w))return 'clima-nublado';
  return 'clima-soleado';
 }
@@ -53,6 +53,13 @@ fetch('https://api.open-meteo.com/v1/forecast?latitude=17.9118&longitude=-94.096
  document.head.append(style);
  const layer=document.createElement('span');layer.className='chopa-rain';layer.setAttribute('aria-hidden','true');
  for(let i=0;i<24;i++){const drop=document.createElement('i');drop.style.left=(i*37%110)+'%';drop.style.animationDuration=(.65+(i%5)*.13)+'s';drop.style.animationDelay=(-i*.17)+'s';layer.append(drop)}clima.append(layer);
+ }
+ if(state==='clima-calor'){
+ const style=document.createElement('style');
+ style.textContent='.mag-clima .mag-visual{position:relative;overflow:hidden}.chopa-heat{position:absolute;inset:0;overflow:hidden;pointer-events:none}.chopa-heat i{position:absolute;bottom:-15%;width:15%;height:45%;border-radius:50%;background:radial-gradient(ellipse,rgba(255,244,220,.65),transparent 70%);filter:blur(5px);animation:chopa-heat-rise 3s ease-out infinite}@keyframes chopa-heat-rise{0%{transform:translate(0,0) scale(.65);opacity:0}20%{opacity:.8}55%{transform:translate(12px,-100%) scale(1.1);opacity:.5}100%{transform:translate(-8px,-240%) scale(1.5);opacity:0}}@media(prefers-reduced-motion:reduce){.chopa-heat{display:none}}';
+ document.head.append(style);
+ const layer=document.createElement('span');layer.className='chopa-heat';layer.setAttribute('aria-hidden','true');
+ for(let i=0;i<9;i++){const wave=document.createElement('i');wave.style.left=(i*11)+'%';wave.style.animationDelay=(-i*.37)+'s';wave.style.animationDuration=(2.5+(i%4)*.4)+'s';layer.append(wave)}clima.append(layer);
  }
  })
  .catch(()=>{});
