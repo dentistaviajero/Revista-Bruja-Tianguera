@@ -45,6 +45,71 @@
   "sponsors": [],
   "editorial_articles": [
     {
+      "id": "aviso-vial-la-brecha-24-nov-2026",
+      "section": "las-choapas",
+      "title": "Habilitan un carril en La Brecha; autoridades piden circular con precaución",
+      "summary": "Protección Civil y Bomberos de Las Choapas habilitaron un carril para aliviar el tráfico entre 20 de Noviembre y Los Coquitos; parte de la zona sigue restringida.",
+      "date": "2026-11-25",
+      "author": "Redacción Bruja Tiangüera · Información del Ayuntamiento de Las Choapas",
+      "published": true,
+      "url": "/articulo.html?id=aviso-vial-la-brecha-24-nov-2026",
+      "body": [
+        "El Ayuntamiento de Las Choapas informó el 24 de noviembre que personal de Protección Civil y Bomberos habilitó un carril en La Brecha para ayudar a desfogar la circulación vehicular ante la congestión registrada en la zona de 20 de Noviembre y Los Coquitos.",
+        "De acuerdo con el aviso municipal, los trabajadores retiraron material del carril habilitado y colocaron barreras para delimitar el área que permanece restringida. El director de Protección Civil y Bomberos, José Guadalupe Velázquez Ruiz, dio a conocer estas acciones.",
+        "A quienes deban transitar por la zona se les solicita reducir la velocidad, utilizar exclusivamente el carril permitido y respetar los señalamientos. Esta reseña se basa en el aviso oficial del 24 de noviembre; las condiciones de circulación pueden cambiar y conviene atender las indicaciones actuales en el lugar."
+      ],
+      "sources": [
+        [
+          "Ayuntamiento de Las Choapas, aviso vial del 24 de noviembre de 2026",
+          "https://laschoapas.gob.mx/noticia-detalle.aspx?idnot=420"
+        ]
+      ]
+    },
+    {
+      "id": "onu-25n-16-dias-activismo-2026",
+      "section": "familia",
+      "title": "25N: la ONU inicia 16 días de activismo para exigir justicia y protección a mujeres y niñas",
+      "summary": "La campaña internacional de 2026 pone el foco en la atención a sobrevivientes, la denuncia segura y la rendición de cuentas.",
+      "date": "2026-11-25",
+      "author": "Redacción Bruja Tiangüera · Internacional",
+      "published": true,
+      "url": "/articulo.html?id=onu-25n-16-dias-activismo-2026",
+      "body": [
+        "Este 25 de noviembre, Día Internacional de la Eliminación de la Violencia contra la Mujer, Naciones Unidas impulsa una nueva edición de los 16 días de activismo, que se extenderán hasta el 10 de diciembre, Día de los Derechos Humanos.",
+        "La campaña de 2026 pide garantizar justicia, proteger a las sobrevivientes y combatir la impunidad. La ONU advierte que las barreras para denunciar, el miedo, el estigma y la falta de servicios dificultan el acceso a la protección incluso donde existen leyes.",
+        "Entre las medidas que promueve están los canales confidenciales de denuncia, la asistencia jurídica, la atención de salud, el acompañamiento psicosocial y los refugios. La campaña también invita a combatir la violencia en entornos digitales y a cuestionar actitudes que culpan a las víctimas.",
+        "La conmemoración es una oportunidad para que las comunidades revisen cómo funcionan sus mecanismos de prevención y atención, y para exigir que las instituciones respondan con recursos y acciones concretas."
+      ],
+      "sources": [
+        [
+          "Naciones Unidas, Día Internacional de la Eliminación de la Violencia contra la Mujer",
+          "https://www.un.org/en/observances/ending-violence-against-women-day"
+        ]
+      ]
+    },
+    {
+      "id": "esa-hera-dimorphos-imagenes-25nov2026",
+      "section": "ciencia",
+      "title": "La misión Hera prepara la presentación de nuevas imágenes de un asteroide desviado por la humanidad",
+      "summary": "La Agencia Espacial Europea anunció para el 25 de noviembre la presentación de imágenes cercanas de Dimorphos, impactado por la misión DART en 2022.",
+      "date": "2026-11-25",
+      "author": "Redacción Bruja Tiangüera · Ciencia y Tecnología",
+      "published": true,
+      "url": "/articulo.html?id=esa-hera-dimorphos-imagenes-25nov2026",
+      "body": [
+        "La Agencia Espacial Europea anunció para este 25 de noviembre la presentación de las primeras imágenes cercanas de Dimorphos obtenidas por su misión Hera. La transmisión está programada a las 19:45 horas de Europa central, por lo que esta nota anuncia un evento previsto y no afirma que las imágenes ya se hayan presentado.",
+        "Dimorphos es el pequeño asteroide cuya órbita fue modificada en 2022 cuando la nave DART de la NASA chocó deliberadamente contra él. Fue una prueba histórica de defensa planetaria: comprobar si sería posible alterar el movimiento de un objeto espacial mediante un impacto controlado.",
+        "Ahora Hera busca examinar de cerca el sistema de asteroides, estudiar sus características y comprender por qué el cambio orbital fue mayor de lo previsto. La información servirá para evaluar qué tan reproducible podría ser esta técnica ante una amenaza real en el futuro.",
+        "La misión no significa que exista un asteroide en trayectoria de impacto contra la Tierra: se trata de investigación preventiva para mejorar el conocimiento científico y la preparación tecnológica."
+      ],
+      "sources": [
+        [
+          "Agencia Espacial Europea, anuncio oficial de imágenes de Dimorphos",
+          "https://www.esa.int/media/about-us/directorates/operations/join-us-live-for-the-first-images-of-asteroid-dimorphos"
+        ]
+      ]
+    },
+    {
       "id": "chrono-cross-27-aniversario-1999",
       "section": "gamers",
       "title": "Chrono Cross: 27 años de una aventura entre dos mundos",
