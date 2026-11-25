@@ -36,9 +36,9 @@ function weatherImage(d){
  const w=Number(d.current?.weather_code),t=Number(d.current?.temperature_2m),v=Number(d.current?.wind_speed_10m);
  if([95,96,99].includes(w))return 'clima-tormenta';
  if(v>=70)return 'clima-viento';
+ if(Number.isFinite(t)&&d.current?.temperature_2m!=null&&t<20)return 'clima-frio';
  if([51,53,55,56,57,61,63,65,66,67,80,81,82].includes(w))return 'clima-lluvia';
  if(t>=38)return 'clima-calor';
- if(t<20)return 'clima-frio';
  if([1,2,3,45,48].includes(w))return 'clima-nublado';
  return 'clima-soleado';
 }
