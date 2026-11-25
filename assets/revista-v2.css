@@ -68,4 +68,4 @@
 .mag-clima .mag-visual{background-image:url('/assets/botones/clima-soleado.webp')!important}
 
 /* Tarjeta de próximos eventos: misma presentación gráfica que los demás botones. */
-.mag-proximos-eventos .mag-visual{background-image:url('/assets/botones/proximos-eventos.webp?v=20261124b');background-size:cover;background-position:center;background-repeat:no-repeat}
+.mag-proximos-eventos .mag-visual{background-image:url('/assets/botones/proximos-eventos.webp?v=20261124d')!important;background-size:cover!important;background-position:center!important;background-repeat:no-repeat!important}
