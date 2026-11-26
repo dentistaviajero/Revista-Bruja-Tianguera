@@ -45,6 +45,38 @@
   "sponsors": [],
   "editorial_articles": [
     {
+      "id": "pokemon-eevee-figuras-tcg",
+      "section": "asia-pop",
+      "title": "Pokémon conquista a los coleccionistas con adorables figuras de Eevee y sus evoluciones",
+      "summary": "Una colección inspirada en las ilustraciones de Pokémon TCG reúne a Eevee y sus ocho evoluciones.",
+      "date": "2026-11-25",
+      "author": "Reportaje hecho por Dentista Viajero",
+      "published": true,
+      "url": "/articulo.html?id=pokemon-eevee-figuras-tcg",
+      "body": [
+        "Los fanáticos de Pokémon tienen una nueva razón para emocionarse: una colección de figuras inspiradas en las ilustraciones del juego de cartas Pokémon TCG reúne a Eevee y sus ocho evoluciones, trasladando el arte de las cartas al mundo tridimensional.",
+        "La familia incluye a Eevee (normal), Vaporeon (agua), Jolteon (eléctrico), Flareon (fuego), Espeon (psíquico), Umbreon (siniestro), Leafeon (planta), Glaceon (hielo) y Sylveon (hada).",
+        "En China se anunció en julio de 2026 una colección de estas características, con un precio de 99 yuanes por caja y lanzamiento el 7 de agosto. No contamos con confirmación de distribución oficial en México ni de que las imágenes difundidas recientemente correspondan a una nueva edición.",
+        "Desde la aparición de Sylveon en 2013, los aficionados han especulado sobre nuevas evoluciones de Eevee, incluyendo los tipos dragón, fantasma y acero. Por el momento, esta nota no cuenta con confirmación de una nueva evolución.",
+        "¿Cuál es tu evolución favorita de Eevee? ¿Qué nuevo tipo te gustaría que apareciera?",
+        "Nota editorial: no fue posible consultar directamente el artículo de Screen Rant; la información de la colección se contrastó con las referencias adicionales indicadas."
+      ],
+      "sources": [
+        [
+          "Screen Rant",
+          "https://screenrant.com/pokemon-tcg-eeveelution-figure-set-unveiled/"
+        ],
+        [
+          "PokéBeach",
+          "https://www.pokebeach.com/2026/07/eevee-friends-dream-illustrating-figures-fully-revealed-for-china"
+        ],
+        [
+          "Pokémon China",
+          "https://www.pokemon.cn/tcg/product/20466.html"
+        ]
+      ]
+    },
+    {
       "id": "aviso-vial-la-brecha-24-nov-2026",
       "section": "las-choapas",
       "title": "Habilitan un carril en La Brecha; autoridades piden circular con precaución",
