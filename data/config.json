@@ -493,18 +493,140 @@
     {
       "id": "juegos-familia-26nov2026",
       "section": "juegos",
-      "title": "Diez juegos de mesa para disfrutar las reuniones navideñas",
-      "summary": "Una selección editorial de actividades para distintas edades.",
+      "title": "¡Que comiencen las risas! 10 party games para disfrutar esta Navidad",
+      "summary": "Diez juegos modernos de reglas sencillas para reunir a toda la familia, con precios, imágenes, tiendas mexicanas y un pilón exclusivo para adultos.",
       "body": [
-        "Para partidas rápidas: lotería, memorama, dominó y basta. Para pensar con calma: ajedrez, damas y palabras cruzadas en equipo. Para grupos: mímica, dibujo y adivinanzas, y serpientes y escaleras.",
-        "Adapta las reglas a la edad, evita eliminar a los participantes demasiado pronto y alterna equipos de adultos y niños. Puedes fabricar tarjetas con cartón reutilizado.",
-        "Las piezas pequeñas requieren supervisión y no son apropiadas para menores de tres años. La mejor elección es aquella en la que todos puedan participar."
+        "Después de la cena navideña, guarda un rato el celular y reúne a la familia alrededor de la mesa. No necesitas aprender reglamentos interminables: los party games son perfectos para compartir partidas rápidas, bromas y momentos que se convierten en recuerdos.",
+        "Elegimos diez opciones de reflejos, creatividad, cooperación y suerte. Busca la que mejor se adapte a la edad de tus invitados y al número de participantes. Para los juegos de movimiento, prepara un espacio seguro; las piezas pequeñas requieren supervisión."
       ],
-      "sources": [],
+      "sources": [
+        [
+          "Tianguis de Juegos: catálogo",
+          "https://tianguisdejuegos.com/collections/game-party"
+        ],
+        [
+          "Kukara Games: catálogo",
+          "https://www.kukaragames.com/collections/juegos-para-reirte-a-carcajadas"
+        ],
+        [
+          "Montecassino: juegos familiares",
+          "https://montecassino.com.mx/collections/juegos-familiares"
+        ],
+        [
+          "Asmodee: reglas de Just One",
+          "https://www.asmodee.es/product/just-one-refresh/"
+        ],
+        [
+          "Asmodee: Happy Salmon",
+          "https://www.asmodee.cl/producto/happy-salmon/"
+        ]
+      ],
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=juegos-familia-26nov2026"
+      "url": "/articulo.html?id=juegos-familia-26nov2026",
+      "game_reviews": [
+        {
+          "title": "1. Taco, Gato, Cabra, Queso, Pizza",
+          "search": "Taco, Gato, Cabra, Queso, Pizza",
+          "description": "Cinco palabras, una pila de cartas y reflejos: cuando la carta coincide con la palabra pronunciada, todos reaccionan. Los gestos de las cartas especiales añaden caos y risas.",
+          "details": "2–8 jugadores · 8+ · 10–15 min · $200",
+          "shop": "https://tianguisdejuegos.com/products/taco-gato-cabra-queso-pizza",
+          "image": "https://tianguisdejuegos.com/cdn/shop/files/TACO.webp?v=1792825484&width=3840",
+          "credit": "Imagen de catálogo: Tianguis de Juegos"
+        },
+        {
+          "title": "2. Dobble",
+          "search": "Dobble",
+          "description": "Encuentra el único dibujo compartido entre dos cartas. Los pequeños pueden competir con los mayores sin tener que leer.",
+          "details": "2–8 jugadores · 6+ · 15 min · $420",
+          "shop": "https://www.kukaragames.com/products/dobble",
+          "image": "https://www.kukaragames.com/cdn/shop/products/dobble-juego-de-atencion-y-velocidad-127502.jpg?v=1707001726&width=432",
+          "credit": "Imagen de catálogo: Kukara Games"
+        },
+        {
+          "title": "3. Happy Salmon",
+          "search": "Happy Salmon",
+          "description": "Busca a alguien que tenga tu misma acción y complétenla juntos. Todos juegan simultáneamente; una buena forma de romper el hielo.",
+          "details": "3–8 jugadores · 6+ · 2 min · $315",
+          "shop": "https://yellowrabbit.mx/collections/exploding-kittens",
+          "image": "https://yellowrabbit.mx/cdn/shop/files/Happy-Salmon-EK_771x1000.png?v=1781742391",
+          "credit": "Imagen de catálogo: Yellow Rabbit"
+        },
+        {
+          "title": "4. Throw Throw Burrito",
+          "search": "Throw Throw Burrito",
+          "description": "Colecciona tríos de cartas y participa en duelos con burritos blandos. Despeja el espacio y evita lanzar hacia la cara.",
+          "details": "2–6 jugadores · 7+ · 15 min · $335",
+          "shop": "https://montecassino.com.mx/collections/juegos-infantiles/products/throw-throw-burrito-juego-de-mesa-asmodee",
+          "image": "https://www.kukaragames.com/cdn/shop/products/throw-throw-burrito-juego-de-habilidad-y-cartas-690425.jpg?v=1707001958&width=458",
+          "credit": "Imagen de catálogo: Kukara Games"
+        },
+        {
+          "title": "5. Flip 7",
+          "search": "Flip 7",
+          "description": "¿Una carta más o te plantas? Acumula números distintos sin repetirlos para conservar tus puntos. La tensión aumenta con cada carta.",
+          "details": "3+ jugadores · 8+ · 20 min · $490",
+          "shop": "https://tianguisdejuegos.com/products/flip-7",
+          "image": "https://tianguisdejuegos.com/cdn/shop/files/flip-7-1197249135_1200x1663_2a2afe0f-a6c8-4f8e-81bc-a416a919e872.webp?v=1778551090&width=3840",
+          "credit": "Imagen de catálogo: Tianguis de Juegos"
+        },
+        {
+          "title": "6. Interferencias",
+          "search": "Interferencias",
+          "description": "Dibuja una palabra, pasa el cuaderno y descubre cómo cambia al alternar dibujos e interpretaciones. Cuanto menos experto sea el dibujante, más sorpresas habrá.",
+          "details": "4–6 jugadores (edición ilustrada) · 8+ · 30 min · $760",
+          "shop": "https://www.kukaragames.com/products/interferencias",
+          "image": "https://www.kukaragames.com/cdn/shop/products/interferencias-juego-de-dibujo-e-interpretacion-960982.jpg?v=1707001812&width=1512",
+          "credit": "Imagen de catálogo: Kukara Games"
+        },
+        {
+          "title": "7. Fantasma Blitz",
+          "search": "Fantasma Blitz",
+          "description": "Cinco objetos y una carta ponen a prueba tu observación. Identifica qué figura corresponde a las reglas antes de que alguien más la tome.",
+          "details": "2–8 jugadores · 8+ · 20 min · $400",
+          "shop": "https://tianguisdejuegos.com/products/fantasma-blitz",
+          "image": "https://tianguisdejuegos.com/cdn/shop/files/fantasma-blitz-1200-face3d.webp?v=1780375294&width=3840",
+          "credit": "Imagen de catálogo: Tianguis de Juegos"
+        },
+        {
+          "title": "8. Exploding Kittens Party Pack",
+          "search": "Exploding Kittens Party Pack",
+          "description": "Usa cartas de acción para evitar los gatos explosivos y sobrevivir a una partida llena de sorpresas. La edición Fiesta admite grupos grandes.",
+          "details": "2–10 jugadores · 7+ · 15 min · $559 (consultar reposición)",
+          "shop": "https://novelty.mx/products/juego-de-cartas-exploding-kittens-party-pack",
+          "image": "https://novelty.mx/cdn/shop/files/JCA-4816-a.jpg?v=1775577577&width=1946",
+          "credit": "Imagen de catálogo: Novelty"
+        },
+        {
+          "title": "9. Just One",
+          "search": "Just One",
+          "description": "Una persona intenta adivinar una palabra con ayuda de los demás. Cada quien escribe una pista y las repetidas se anulan: aquí todos ganan juntos.",
+          "details": "3–7 jugadores · 8+ · 20 min · $725",
+          "shop": "https://montecassino.com.mx/collections/juegos-familiares/products/just-one-juego-de-mesa-asmodee-5425016922590",
+          "image": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/image-converter/2025/07/JOES02_1.webp",
+          "credit": "Imagen de catálogo: Asmodee"
+        },
+        {
+          "title": "10. Polilla Tramposa",
+          "search": "Polilla Tramposa",
+          "description": "Deshazte de tus cartas siguiendo las reglas o aprovechando un descuido del vigilante. Las trampas permitidas son el centro de la diversión.",
+          "details": "3–5 jugadores · 7+ · 15–25 min · $320",
+          "shop": "https://tianguisdejuegos.com/products/polilla-tramposa",
+          "image": "https://tianguisdejuegos.com/cdn/shop/files/71meMWbA3HL._AC_UL495_SR435_495.jpg?v=1780354778&width=3840",
+          "credit": "Imagen de catálogo: Tianguis de Juegos"
+        },
+        {
+          "title": "Al Chile",
+          "search": "Al Chile",
+          "description": "Una opción mexicana para amigos adultos que disfrutan las preguntas atrevidas y descubrir qué opinan unos de otros. Acuerden límites y permitan pasar cualquier pregunta sin explicaciones. No requiere beber alcohol.",
+          "details": "3–12 jugadores · 18+ · 20–30 min · $745",
+          "shop": "https://www.kukaragames.com/products/al-chile-juego-para-balconear-a-tus-amigos",
+          "image": "https://www.kukaragames.com/cdn/shop/products/al-chile-juego-para-balconear-a-tus-amigos-864390.jpg?v=1707002055&width=2000",
+          "credit": "Imagen de catálogo: Kukara Games",
+          "extra": true
+        }
+      ]
     },
     {
       "id": "juguetes-clasicos-26nov2026",
