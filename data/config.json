@@ -1586,6 +1586,72 @@
       "url": "/articulo.html?id=zelda-gta6-2026",
       "image": "/assets/portadas/mundo-gamer.webp",
       "correspondent": "dentista"
+    },
+    {
+      "id": "lactancia-libre-demanda-dunstan",
+      "section": "familia",
+      "title": "Lactancia materna a libre demanda: aprende a escuchar a tu bebé",
+      "summary": "Reconocer las señales tempranas de hambre permite ofrecer el pecho antes del llanto. Conoce también los cinco sonidos propuestos por Priscilla Dunstan.",
+      "body": [
+        "La leche materna aporta nutrientes y componentes inmunológicos, incluidos anticuerpos y oligosacáridos, que favorecen el desarrollo infantil y ayudan a proteger frente a infecciones. La lactancia también beneficia la salud materna.",
+        "¿Por qué pide pecho otra vez? Durante las primeras semanas son habituales entre ocho y doce tomas diarias o más. En las tomas agrupadas algunos bebés solicitan pecho cada 30 o 40 minutos. Esto no implica necesariamente falta de leche ni significa que toda leche materna se digiera en ese intervalo. Evita imponer horarios rígidos.",
+        "Antes del llanto, observa si el bebé lleva sus manos a la boca, realiza movimientos de succión, mueve los labios como si diera besitos o gira la cabeza buscando el pecho. Ofrécele alimento ante estas señales; el llanto suele aparecer más tarde.",
+        "El método Dunstan Baby Language fue desarrollado por Priscilla Dunstan, australiana que observó sonidos previos al llanto. Su propuesta distingue cinco sonidos: Neh (hambre), Owh (sueño), Eh (necesidad de eructar), Eairh (gases o malestar abdominal) y Heh (incomodidad). Su sitio oficial ofrece demostraciones y material educativo.",
+        "Estos sonidos son una guía complementaria de observación, no un diagnóstico. No existe suficiente validación clínica para afirmar que todos los bebés expresan las mismas necesidades con estos sonidos. Un gruñido persistente asociado a dificultad respiratoria requiere atención urgente.",
+        "Vigila la ganancia de peso, la deglución y los pañales mojados. Si el bebé está excesivamente somnoliento, se alimenta mal o moja pocos pañales, solicita valoración profesional. Los bebés prematuros o con dificultades de alimentación pueden necesitar un esquema individualizado y ser despertados para comer.",
+        "La lactancia exclusiva se recomienda durante los primeros seis meses y, junto con alimentación complementaria adecuada, hasta los dos años o más. Menos atención al reloj y más atención a las señales del bebé."
+      ],
+      "sources": [
+        [
+          "ACOG: lactancia y tomas agrupadas",
+          "https://www.acog.org/womens-health/faqs/breastfeeding-your-baby"
+        ],
+        [
+          "Dunstan Baby Language: sitio oficial y demostraciones",
+          "https://www.dunstanbaby.com/"
+        ],
+        [
+          "Descripción de los cinco sonidos",
+          "https://improbable.com/2006/12/05/a-better-baby-language/"
+        ],
+        [
+          "OMS: alimentación del lactante",
+          "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding"
+        ]
+      ],
+      "author": "Redacción Bruja Tiangüera",
+      "correspondent": "partera",
+      "date": "2026-11-26",
+      "published": true,
+      "url": "/articulo.html?id=lactancia-libre-demanda-dunstan"
+    },
+    {
+      "id": "metodo-madre-canguro-prematuros",
+      "section": "salud",
+      "title": "Método Madre Canguro: el poder del contacto piel con piel en bebés prematuros",
+      "summary": "El contacto prolongado y la alimentación con leche materna forman parte de una estrategia neonatal respaldada por la OMS.",
+      "body": [
+        "Los bebés nacidos antes de las 37 semanas o con bajo peso necesitan atención adaptada a su desarrollo. El Método Madre Canguro combina el contacto prolongado piel con piel y la alimentación con leche materna, con seguimiento clínico.",
+        "La evidencia respalda su uso para favorecer la supervivencia, disminuir infecciones y ayudar a mantener la temperatura corporal. También facilita la lactancia y la cercanía afectiva de la familia.",
+        "La OMS recomienda comenzar lo antes posible tras el nacimiento y prolongar el contacto según la situación clínica. Incluso algunos bebés que necesitan cuidados intensivos pueden recibirlo bajo supervisión especializada.",
+        "El padre u otro cuidador capacitado también puede contribuir mediante contacto piel con piel y apoyar el descanso de la madre. El equipo neonatal debe orientar a la familia sobre la posición, con la cara visible y las vías respiratorias despejadas.",
+        "El Método Madre Canguro complementa los cuidados neonatales y no reemplaza la incubadora, el soporte respiratorio ni otros tratamientos cuando están indicados. Antes de continuar en casa, la familia debe recibir orientación y un plan de seguimiento."
+      ],
+      "sources": [
+        [
+          "OMS: guía clínica actualizada de 2025",
+          "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health/kangaroo-mother-care-practice-guide"
+        ],
+        [
+          "OMS: recomendaciones para prematuros y bajo peso",
+          "https://www.ncbi.nlm.nih.gov/books/NBK586699/"
+        ]
+      ],
+      "author": "Redacción Bruja Tiangüera",
+      "correspondent": "partera",
+      "date": "2026-11-26",
+      "published": true,
+      "url": "/articulo.html?id=metodo-madre-canguro-prematuros"
     }
   ],
   "editorial_correspondents": {
