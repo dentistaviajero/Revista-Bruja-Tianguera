@@ -45,6 +45,136 @@
   "sponsors": [],
   "editorial_articles": [
     {
+      "id": "dengue-coatza",
+      "section": "coatzacoalcos",
+      "date": "2026-11-26",
+      "title": "Coatzacoalcos identifica colonias con mayor incidencia de dengue",
+      "summary": "La Jurisdicción Sanitaria informó 1,036 notificaciones y 173 confirmaciones en el año.",
+      "body": [
+        "Lomas de Barrillas y Punta Caracol registraron ocho notificaciones recientes cada una; Puerto Esmeralda y Ciudad Olmeca, siete cada una.",
+        "El comité municipal informó también sobre hospitalizaciones. Eliminar recipientes con agua estancada y acudir a valoración ante síntomas son medidas importantes."
+      ],
+      "sources": [
+        [
+          "Diario del Istmo",
+          "https://diariodelistmo.com/coatzacoalcos/coatzacoalcos-acumula-mil-36-casos-notificados-de-dengue-y-173-confirmados-20261126-0034.html"
+        ]
+      ],
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=dengue-coatza"
+    },
+    {
+      "id": "peso-noviembre",
+      "section": "finanzas",
+      "date": "2026-11-26",
+      "title": "Peso mexicano se encamina a siete jornadas consecutivas de depreciación",
+      "summary": "La moneda retrocedió durante la sesión matutina.",
+      "body": [
+        "Banco Base reportó una cotización cercana a 19.66 pesos por dólar durante la mañana. La racha negativa acumulaba una pérdida de alrededor de 6.37%.",
+        "El diferencial esperado de tasas entre México y Estados Unidos y el menor volumen por el feriado estadounidense influyeron en el mercado. La cifra es intradía, no el cierre oficial."
+      ],
+      "sources": [
+        [
+          "Banco Base vía Investing",
+          "https://mx.investing.com/analysis/el-peso-mexicano-inicia-la-sesion-con-una-depreciacion-de-037-ante-el-dolar-hoy-200490643"
+        ]
+      ],
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=peso-noviembre"
+    },
+    {
+      "id": "black-friday-presupuesto",
+      "section": "finanzas",
+      "date": "2026-11-26",
+      "title": "Black Friday: cómo aprovechar los descuentos sin comprometer tus finanzas",
+      "summary": "Una guía editorial para las compras del 27 de noviembre.",
+      "body": [
+        "Define un presupuesto después de reservar los gastos indispensables. Compara el precio final y el historial de precios cuando esté disponible.",
+        "Verifica garantías, devoluciones, identidad del comercio y cargos de envío. Evita financiar compras cuya mensualidad no puedas cubrir. Una oferta solo representa ahorro si responde a una necesidad real."
+      ],
+      "sources": [],
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=black-friday-presupuesto"
+    },
+    {
+      "id": "ebenezer-depp",
+      "section": "espectaculos",
+      "date": "2026-11-13",
+      "title": "Johnny Depp regresa al cine como Ebenezer Scrooge",
+      "summary": "Ti West dirige una reinterpretación sobrenatural del clásico de Dickens.",
+      "body": [
+        "Paramount fecha el estreno cinematográfico el 13 de noviembre. La película sigue a Scrooge durante una noche de encuentros sobrenaturales que lo confrontan con sus decisiones.",
+        "El reparto incluye a Rupert Grint, Daisy Ridley e Ian McKellen. La disponibilidad en salas mexicanas debe consultarse en la cartelera local."
+      ],
+      "sources": [
+        [
+          "Paramount",
+          "https://www.paramount.com/movies/ebenezer"
+        ]
+      ],
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=ebenezer-depp"
+    },
+    {
+      "id": "gafas-meta",
+      "section": "ciencia",
+      "date": "2026-09-23",
+      "title": "Gafas inteligentes: la inteligencia artificial llega a nuestros lentes",
+      "summary": "Meta amplía sus mercados y anuncia nuevas funciones.",
+      "body": [
+        "Meta informó de la llegada de Meta Glasses a México y de la expansión internacional de Ray-Ban Display. Este último modelo tiene pantalla integrada y control mediante pulsera.",
+        "La versión Display parte de 799 dólares en Estados Unidos. No se confirma su venta en México. Conviene revisar compatibilidad, autonomía, privacidad y disponibilidad antes de comprar."
+      ],
+      "sources": [
+        [
+          "Meta",
+          "https://about.fb.com/es/news/2026/09/todo-lo-que-hemos-anunciado-en-meta-connect-2026/"
+        ]
+      ],
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=gafas-meta"
+    },
+    {
+      "id": "ia-populares",
+      "section": "ciencia",
+      "date": "2026-11-06",
+      "title": "Las inteligencias artificiales más utilizadas en 2026",
+      "summary": "ChatGPT, Gemini y Claude encabezan las visitas web según una medición de octubre.",
+      "body": [
+        "La recopilación de Momentic para noviembre atribuye a ChatGPT 56.6% de las visitas web medidas, Gemini 24.7% y Claude 11.7%. DeepSeek, Grok, Perplexity y Copilot completan la selección.",
+        "El tráfico web no equivale a usuarios únicos y excluye buena parte del uso mediante aplicaciones móviles, APIs e integraciones. Conviene elegir herramientas según la tarea, privacidad y coste."
+      ],
+      "sources": [
+        [
+          "Momentic",
+          "https://momenticmarketing.com/blog/top-ai-chatbots"
+        ]
+      ],
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=ia-populares"
+    },
+    {
+      "id": "accidentes-navidad",
+      "section": "familia",
+      "date": "2026-11-26",
+      "title": "Cómo prevenir accidentes infantiles durante las celebraciones navideñas",
+      "summary": "Recomendaciones prácticas para convivencias familiares.",
+      "body": [
+        "Mantén pilas de botón, piezas pequeñas, medicamentos y bebidas alcohólicas fuera del alcance de los niños. Supervisa las comidas y adapta los alimentos a su edad.",
+        "Evita la pirotecnia en manos de menores, protege conexiones eléctricas y mantén líquidos calientes lejos de los bordes. Ante ingestión de una pila de botón busca atención de urgencia inmediatamente."
+      ],
+      "sources": [],
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=accidentes-navidad"
+    },
+    {
       "id": "parteras-chiapas",
       "section": "saberes",
       "date": "2026-11-26",
