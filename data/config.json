@@ -45,6 +45,77 @@
   "sponsors": [],
   "editorial_articles": [
     {
+      "id": "crit-minatitlan-26nov2026",
+      "section": "sureste",
+      "title": "Comienza la preparación del terreno para construir el CRIT en Minatitlán",
+      "summary": "El centro prevé iniciar operaciones en octubre de 2027.",
+      "body": [
+        "Los trabajos preliminares comenzaron en la colonia Petrolera, detrás de la unidad deportiva Benito Juárez. El alcalde recorrió el predio el 25 de noviembre junto con representantes de Teletón y responsables de la obra.",
+        "El proyecto acercará servicios de rehabilitación física, ocupacional y de lenguaje, entre otras áreas, a familias del sur de Veracruz y del Istmo.",
+        "El calendario contempla registro de familias en agosto de 2027, valoraciones en septiembre y apertura en octubre. Son fechas previstas, sujetas al avance del proyecto."
+      ],
+      "sources": [
+        [
+          "Diario del Istmo",
+          "https://diariodelistmo.com/estatal/inicia-preparacion-del-terreno-para-construir-el-crit-en-minatitlan-que-servicios-ofrecera-20261126-0024.html"
+        ],
+        [
+          "RTV",
+          "https://www.masnoticias.mx/seguimos-avanzando-para-hacer-realidad-el-crit-de-minatitlan/"
+        ]
+      ],
+      "date": "2026-11-26",
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=crit-minatitlan-26nov2026"
+    },
+    {
+      "id": "erosion-cardenas-26nov2026",
+      "section": "sureste",
+      "title": "Erosión costera amenaza viviendas en Cárdenas, Tabasco",
+      "summary": "CODEHUTAB reporta el colapso de tres casas desde finales de octubre.",
+      "body": [
+        "En entrevista con XEVA, el asesor jurídico de CODEHUTAB informó que el avance del mar afecta comunidades como El Alacrán y Sánchez Magallanes. Según su testimonio, tres viviendas colapsaron desde que se agravó el problema a finales de octubre.",
+        "Los caminos también han sufrido daños. El comité busca acompañar a las familias en sus solicitudes de intervención ante las autoridades.",
+        "El reporte es distinto del balance inmediato del frente frío 8. Las familias deben atender las indicaciones de Protección Civil y evitar zonas de oleaje peligroso."
+      ],
+      "sources": [
+        [
+          "XEVA Noticias",
+          "https://xeva.com.mx/tabasco/299714/-el-mar-devora-comunidades-de-cardenas-tres-viviendas-colapsan-y-familias-estan-en-riesgo-por-erosion-costera"
+        ]
+      ],
+      "date": "2026-11-26",
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=erosion-cardenas-26nov2026"
+    },
+    {
+      "id": "frente-frio8-tabasco-26nov2026",
+      "section": "sureste",
+      "title": "Protección Civil mantiene vigilancia por el frente frío 8 en Tabasco",
+      "summary": "Cárdenas, Paraíso y Teapa registran condiciones que requieren seguimiento.",
+      "body": [
+        "Protección Civil estatal reportó ingreso temporal de agua marina en viviendas de Sánchez Magallanes y vigilancia de pasos inundados en Teapa. No informó daños estructurales ni personas afectadas por ese incidente específico.",
+        "En Paraíso se observaron olas elevadas sin afectaciones reportadas durante los recorridos. El pronóstico del día contemplaba chubascos y oleaje de hasta tres metros.",
+        "Se recomienda atender avisos oficiales y evitar cruzar caminos inundados. Las condiciones pueden cambiar durante el día."
+      ],
+      "sources": [
+        [
+          "El Heraldo de Tabasco",
+          "https://oem.com.mx/elheraldodetabasco/local/sanchez-magallanes-y-teapa-en-vigilancia-por-efectos-del-frente-frio-8-33320778"
+        ],
+        [
+          "XEVA Noticias",
+          "https://xeva.com.mx/tabasco/299687/preven-chubascos-y-oleaje-de-hasta-tres-metros-en-tabasco"
+        ]
+      ],
+      "date": "2026-11-26",
+      "published": true,
+      "author": "Redacción Bruja Tiangüera",
+      "url": "/articulo.html?id=frente-frio8-tabasco-26nov2026"
+    },
+    {
       "id": "dengue-coatza",
       "section": "coatzacoalcos",
       "date": "2026-11-26",
@@ -1460,7 +1531,7 @@
       ],
       "date": "2026-11-24",
       "author": "Redacción Bruja Tiangüera",
-      "published": true,
+      "published": false,
       "url": "/articulo.html?id=comercio-sureste-noviembre"
     },
     {
