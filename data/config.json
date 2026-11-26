@@ -153,7 +153,8 @@
       ],
       "published": true,
       "author": "Redacción Bruja Tiangüera",
-      "url": "/articulo.html?id=peso-noviembre"
+      "url": "/articulo.html?id=peso-noviembre",
+      "correspondent": "angel"
     },
     {
       "id": "black-friday-presupuesto",
@@ -168,7 +169,8 @@
       "sources": [],
       "published": true,
       "author": "Redacción Bruja Tiangüera",
-      "url": "/articulo.html?id=black-friday-presupuesto"
+      "url": "/articulo.html?id=black-friday-presupuesto",
+      "correspondent": "angel"
     },
     {
       "id": "ebenezer-depp",
@@ -264,7 +266,8 @@
       ],
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=parteras-chiapas"
+      "url": "/articulo.html?id=parteras-chiapas",
+      "correspondent": "partera"
     },
     {
       "id": "herbolaria-orizaba",
@@ -285,7 +288,8 @@
       ],
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=herbolaria-orizaba"
+      "url": "/articulo.html?id=herbolaria-orizaba",
+      "correspondent": "partera"
     },
     {
       "id": "diccionario-totonaca",
@@ -306,7 +310,8 @@
       ],
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=diccionario-totonaca"
+      "url": "/articulo.html?id=diccionario-totonaca",
+      "correspondent": "partera"
     },
     {
       "id": "reconocimiento-parteria-inpi",
@@ -327,7 +332,8 @@
       ],
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=reconocimiento-parteria-inpi"
+      "url": "/articulo.html?id=reconocimiento-parteria-inpi",
+      "correspondent": "partera"
     },
     {
       "id": "congreso-parteria-veracruz",
@@ -348,7 +354,8 @@
       ],
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=congreso-parteria-veracruz"
+      "url": "/articulo.html?id=congreso-parteria-veracruz",
+      "correspondent": "partera"
     },
     {
       "id": "aguinaldo-26nov2026",
@@ -369,7 +376,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=aguinaldo-26nov2026"
+      "url": "/articulo.html?id=aguinaldo-26nov2026",
+      "correspondent": "angel"
     },
     {
       "id": "diciembre-sin-deuda-26nov2026",
@@ -390,7 +398,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=diciembre-sin-deuda-26nov2026"
+      "url": "/articulo.html?id=diciembre-sin-deuda-26nov2026",
+      "correspondent": "angel"
     },
     {
       "id": "regalos-navidad-26nov2026",
@@ -452,7 +461,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=vacunas-invierno-26nov2026"
+      "url": "/articulo.html?id=vacunas-invierno-26nov2026",
+      "correspondent": "dentista"
     },
     {
       "id": "respiratorias-alerta-26nov2026",
@@ -477,7 +487,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=respiratorias-alerta-26nov2026"
+      "url": "/articulo.html?id=respiratorias-alerta-26nov2026",
+      "correspondent": "dentista"
     },
     {
       "id": "juegos-familia-26nov2026",
@@ -535,7 +546,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=unas-diciembre-26nov2026"
+      "url": "/articulo.html?id=unas-diciembre-26nov2026",
+      "correspondent": "ambar"
     },
     {
       "id": "rizos-fiestas-26nov2026",
@@ -551,7 +563,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=rizos-fiestas-26nov2026"
+      "url": "/articulo.html?id=rizos-fiestas-26nov2026",
+      "correspondent": "ambar"
     },
     {
       "id": "derrame-golfo-26nov2026",
@@ -634,7 +647,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": false,
-      "url": "/articulo.html?id=posadas-mexico-26nov2026"
+      "url": "/articulo.html?id=posadas-mexico-26nov2026",
+      "correspondent": "partera"
     },
     {
       "id": "pinata-siete-picos-26nov2026",
@@ -650,7 +664,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": false,
-      "url": "/articulo.html?id=pinata-siete-picos-26nov2026"
+      "url": "/articulo.html?id=pinata-siete-picos-26nov2026",
+      "correspondent": "partera"
     },
     {
       "id": "agenda-fin-semana-26nov2026",
@@ -724,7 +739,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=deportes-fin-semana-26nov2026"
+      "url": "/articulo.html?id=deportes-fin-semana-26nov2026",
+      "correspondent": "angel"
     },
     {
       "id": "cartelera-fin-semana-26nov2026",
@@ -772,7 +788,8 @@
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
       "published": true,
-      "url": "/articulo.html?id=godzilla-asia-pop-26nov2026"
+      "url": "/articulo.html?id=godzilla-asia-pop-26nov2026",
+      "correspondent": "dentista"
     },
     {
       "id": "agenda-diciembre-26nov2026",
@@ -954,7 +971,8 @@
           "Diario del Istmo",
           "https://diariodelistmo.com/deportes/fuertes-rachas-de-viento-del-norte-frenan-el-beisbol-playero-en-coatzacoalcos-20261125-0080.html"
         ]
-      ]
+      ],
+      "correspondent": "angel"
     },
     {
       "id": "navidad-coatza-cultura-26nov2026",
@@ -1034,7 +1052,8 @@
           "Pokémon China",
           "https://www.pokemon.cn/tcg/product/20466.html"
         ]
-      ]
+      ],
+      "correspondent": "dentista"
     },
     {
       "id": "aviso-vial-la-brecha-24-nov-2026",
@@ -1131,7 +1150,8 @@
           "https://www.square-enix-games.com/en_US/games/chrono-cross-radical-dreamers-edition"
         ]
       ],
-      "video_heading": "Introducción de Chrono Cross"
+      "video_heading": "Introducción de Chrono Cross",
+      "correspondent": "dentista"
     },
     {
       "id": "moda-invierno-2026-tendencias",
@@ -1157,7 +1177,8 @@
           "Vogue México — Colores en tendencia de 2026",
           "https://www.vogue.mx/articulo/colores-2026"
         ]
-      ]
+      ],
+      "correspondent": "ambar"
     },
     {
       "id": "liguilla-apertura-2026-cuartos",
@@ -1181,7 +1202,8 @@
           "Liga MX — información oficial de partidos y resultados",
           "https://ligamx.net/"
         ]
-      ]
+      ],
+      "correspondent": "angel"
     },
     {
       "id": "pinzamiento-tardio-cordon",
@@ -1216,7 +1238,8 @@
           "Cochrane: Effect of timing of umbilical cord clamping and other strategies to influence placental transfusion at preterm birth",
           "https://www.cochranelibrary.com/"
         ]
-      ]
+      ],
+      "correspondent": "partera"
     },
     {
       "id": "villa-navidena-2026",
@@ -1320,7 +1343,8 @@
           "https://en.dragon-ball-official.com/"
         ]
       ],
-      "image": "/assets/portadas/asia-pop.webp"
+      "image": "/assets/portadas/asia-pop.webp",
+      "correspondent": "dentista"
     },
     {
       "id": "pokemon-tcg-paradox",
@@ -1346,7 +1370,8 @@
           "Yu-Gi-Oh! Trading Card Game, sitio oficial",
           "https://www.yugioh-card.com/"
         ]
-      ]
+      ],
+      "correspondent": "dentista"
     },
     {
       "id": "caries-mancha-blanca",
@@ -1368,7 +1393,8 @@
           "American Dental Association, información sobre caries",
           "https://www.mouthhealthy.org/all-topics-a-z/cavities"
         ]
-      ]
+      ],
+      "correspondent": "dentista"
     },
     {
       "id": "parteria-moderna",
@@ -1391,7 +1417,8 @@
           "Organización Mundial de la Salud, salud materna",
           "https://www.who.int/health-topics/maternal-health"
         ]
-      ]
+      ],
+      "correspondent": "partera"
     },
     {
       "id": "herramientas-estudio",
@@ -1480,7 +1507,8 @@
         "Las colaboraciones con otros negocios pueden ampliar el alcance sin necesidad de invertir grandes cantidades en publicidad. Una promoción compartida debe dejar claras las responsabilidades de cada participante.",
         "Un cierre de temporada ordenado facilita empezar el siguiente año con mejores decisiones."
       ],
-      "sources": []
+      "sources": [],
+      "correspondent": "angel"
     },
     {
       "id": "desfiles-las-choapas-2026",
@@ -1556,7 +1584,53 @@
       "author": "Redacción Bruja Tiangüera",
       "published": true,
       "url": "/articulo.html?id=zelda-gta6-2026",
-      "image": "/assets/portadas/mundo-gamer.webp"
+      "image": "/assets/portadas/mundo-gamer.webp",
+      "correspondent": "dentista"
     }
-  ]
+  ],
+  "editorial_correspondents": {
+    "dentista": {
+      "name": "Dentista Viajero",
+      "url": "https://dentistaypartera.pages.dev/",
+      "topics": [
+        "odontología",
+        "odontopediatría",
+        "salud general",
+        "videojuegos",
+        "anime",
+        "Pokémon TCG"
+      ]
+    },
+    "partera": {
+      "name": "Partera Annie Arenas",
+      "url": "https://dentistaypartera.pages.dev/",
+      "topics": [
+        "partería",
+        "lactancia",
+        "embarazo",
+        "puerperio",
+        "salud maternoinfantil",
+        "herbolaria",
+        "saberes ancestrales"
+      ]
+    },
+    "ambar": {
+      "name": "Ámbar Zitlalic",
+      "topics": [
+        "belleza",
+        "moda",
+        "tendencias",
+        "sociales"
+      ]
+    },
+    "angel": {
+      "name": "Ángel Chacón Gil",
+      "topics": [
+        "deportes",
+        "economía",
+        "finanzas",
+        "Magic: The Gathering"
+      ]
+    }
+  }
 }
