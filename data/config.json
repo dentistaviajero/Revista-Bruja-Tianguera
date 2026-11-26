@@ -1621,6 +1621,14 @@
         "moda",
         "tendencias",
         "sociales"
+      ],
+      "phone": "9231109960",
+      "whatsapp": "https://wa.me/529231109960",
+      "commercial_services": [
+        "Publicidad en la revista",
+        "Jabones artesanales",
+        "Pestañas",
+        "Maquillaje"
       ]
     },
     "angel": {
@@ -1630,7 +1638,49 @@
         "economía",
         "finanzas",
         "Magic: The Gathering"
+      ],
+      "phone": "5610851861",
+      "whatsapp": "https://wa.me/525610851861",
+      "commercial_services": [
+        "Publicidad en la revista",
+        "Eventos del Colectivo Bruja Tiangüera",
+        "Espacios comerciales en exposiciones"
       ]
     }
-  }
+  },
+  "commercial_contacts": [
+    {
+      "name": "Ángel Chacón Gil",
+      "topics": [
+        "deportes",
+        "economía",
+        "finanzas",
+        "Magic: The Gathering"
+      ],
+      "phone": "5610851861",
+      "whatsapp": "https://wa.me/525610851861",
+      "commercial_services": [
+        "Publicidad en la revista",
+        "Eventos del Colectivo Bruja Tiangüera",
+        "Espacios comerciales en exposiciones"
+      ]
+    },
+    {
+      "name": "Ámbar Zitlalic",
+      "topics": [
+        "belleza",
+        "moda",
+        "tendencias",
+        "sociales"
+      ],
+      "phone": "9231109960",
+      "whatsapp": "https://wa.me/529231109960",
+      "commercial_services": [
+        "Publicidad en la revista",
+        "Jabones artesanales",
+        "Pestañas",
+        "Maquillaje"
+      ]
+    }
+  ]
 }
