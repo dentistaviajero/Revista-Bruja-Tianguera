@@ -15,21 +15,22 @@ async function storedSection(env,key){
  const data=await env.NEWS_KV.get(key,"json");
  const status=await env.NEWS_KV.get(key+":status","json");
  if(!data)return json({ok:false,status,warning:"Sin primera sincronización"},503);
- return json({...data,syncStatus:status,stale:!status?.ok||Date.now()-Date.parse(data.syncedAt)> (key==="alertas"?25:90)*60000});
+ return json({...data,syncStatus:status,stale:!status?.ok||Date.now()-Date.parse(data.syncedAt)> (key==="alertas"?25:150)*60000});
 }
 // Añadir dentro de fetch, antes del return 404:
 // if(path==="/api/municipio")return storedSection(env,"municipio");
 // if(path==="/api/alertas")return storedSection(env,"alertas");
 // Sustituir scheduled por:
 // async scheduled(event,env,ctx){
-// const minute=new Date(event.scheduledTime).getUTCMinutes();
+// const local=new Date(event.scheduledTime-6*3600000);
+// const minute=local.getUTCMinutes(),hour=local.getUTCHours();
 // const jobs=[syncSection(env,"alertas","/api/alertas")];
-// if(minute===0)jobs.push(syncSection(env,"municipio","/api/municipio"));
-// if(minute%30===0)jobs.push(update(env)); // PENDIENTE: separar feeds Al Día de feeds diarios antes de activar
+// if(minute===0&&hour%2===0)jobs.push(syncSection(env,"municipio","/api/municipio"));
+// if(minute===0&&hour===6)jobs.push(update(env));
 // ctx.waitUntil(Promise.allSettled(jobs));
 // }
 // Cron: */10 * * * *
-
-// Política editorial: Al Día cada 30 minutos; municipio cada hora;
-// otras categorías una vez al día a las 06:00 America/Mexico_City.
-// No activar el cron hasta separar update(env) por grupos y conectar las vistas al KV.
+// Hora local Las Choapas UTC-6. RSS todas las secciones 06:00.
+// Clima al abrir y cada 10 minutos en pestaña abierta.
+// Contenido editorial y comercial manual independiente del RSS.
+// No activar hasta integrar el Worker, conectar las vistas al KV y probar fuentes.
