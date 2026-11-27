@@ -45,6 +45,140 @@
   "sponsors": [],
   "editorial_articles": [
     {
+      "id": "greenpeace-krem1-noviembre",
+      "section": "las-choapas",
+      "date": "2026-11-26",
+      "title": "Greenpeace alerta por contaminación persistente del agua en Las Choapas",
+      "summary": "La organización presentó resultados de análisis a seis comunidades afectadas por el pozo Krem-1.",
+      "body": [
+        "Greenpeace México informó que entregó resultados de su investigación a habitantes de Arroyo Grande, Ejido Pedregal, Los Lirios, Nacimiento, Lázaro Cárdenas y Francisco Villa, afectados por el incendio del pozo Krem-1.",
+        "Según El Economista, el estudio detectó benzo[a]pireno en seis de siete muestras de agua. El medio reportó que el potencial cancerígeno acumulado de las muestras excedió entre 61 y 113 veces valores internacionales de referencia. Esto no equivale a afirmar que el riesgo individual de cáncer aumente en esa misma proporción.",
+        "La organización reclama un plan integral de remediación y claridad sobre la seguridad del agua y el suelo. Ante sospecha de contaminación, se recomienda utilizar una fuente de agua segura para beber y cocinar y solicitar orientación sanitaria; hervir el agua no elimina los hidrocarburos.",
+        "La redacción no ha obtenido una respuesta actualizada de Pemex a estos hallazgos. Los resultados corresponden a muestras específicas y no permiten concluir que toda el agua del municipio esté contaminada."
+      ],
+      "sources": [
+        [
+          "Greenpeace México, comunicado del 26 de noviembre",
+          "https://www.greenpeace.org/mexico/informacion-prensa/66187/las-choapas-veracruz-con-temor-de-usar-agua-contaminada-con-hidrocarburos-cancerigenos/"
+        ],
+        [
+          "Informe técnico",
+          "https://www.greenpeace.org/static/planet4-mexico-stateless/2026/11/60abbe63-presencia-de-hidrocarburos-del-petroleo-en-agua-suelo-y-sedimentos-en-el-area-del-pozo-krem-1-las-choapas-veracruz-.pdf"
+        ],
+        [
+          "El Economista",
+          "https://www.eleconomista.com.mx/politica/alerta-greenpeace-polucion-petroleo-choapas-20261126-846152.html"
+        ]
+      ],
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=greenpeace-krem1-noviembre"
+    },
+    {
+      "id": "artesanas-finabien-acayucan",
+      "section": "sureste",
+      "date": "2026-11-26",
+      "title": "Artesanas de once municipios del sur reciben financiamiento",
+      "summary": "Finabien Apoyarte busca fortalecer emprendimientos e ingresos familiares.",
+      "body": [
+        "Mujeres artesanas de once municipios recibieron financiamiento mediante Finabien Apoyarte, según informó Diario del Istmo desde Acayucan.",
+        "Los recursos buscan facilitar la compra de insumos y ampliar la producción artesanal. La información consultada no precisa los montos individuales ni condiciones de nuevas solicitudes."
+      ],
+      "sources": [
+        [
+          "Diario del Istmo, edición regional",
+          "https://diariodelistmo.com/"
+        ]
+      ],
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=artesanas-finabien-acayucan"
+    },
+    {
+      "id": "agua-dulce-lagarto",
+      "section": "sureste",
+      "date": "2026-11-26",
+      "title": "Vecinos alertan por reptil y socavón en Agua Dulce",
+      "summary": "Habitantes de El Muelle solicitan atención de las autoridades.",
+      "body": [
+        "Vecinos reportaron un reptil de aproximadamente un metro en un drenaje de la colonia El Muelle, en el cruce de Hilario C. Salas y Blas Cortés. También señalaron un socavón que se agrava con las lluvias.",
+        "La comunidad solicita una revisión del sitio. Se recomienda mantener distancia del animal y del terreno inestable, evitar manipularlo y avisar a Protección Civil."
+      ],
+      "sources": [
+        [
+          "Diario del Istmo",
+          "https://diariodelistmo.com/estatal/lagarto-sale-de-drenaje-en-agua-dulce-vecinos-piden-intervencion-de-autoridades-20261126-0070.html"
+        ]
+      ],
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=agua-dulce-lagarto"
+    },
+    {
+      "id": "atenas-xalapa",
+      "section": "veracruz",
+      "date": "2026-11-23",
+      "title": "Atenas inicia operaciones en Xalapa con 60 autobuses",
+      "summary": "El servicio ofrece viajes gratuitos hasta el 28 de noviembre.",
+      "body": [
+        "El nuevo sistema comenzó a operar el 23 de noviembre con 60 unidades en cinco recorridos que cubren Xalapa y sectores de Banderilla y Emiliano Zapata.",
+        "El gobierno estatal anunció gratuidad hasta el sábado 28. Después se aplicará una tarifa de 15 pesos por viaje y un pase diario opcional de 40 pesos para traslados ilimitados durante la jornada."
+      ],
+      "sources": [
+        [
+          "Gobierno de Veracruz",
+          "https://www.veracruz.gob.mx/2026/11/23/son-de-ustedes-son-del-pueblo-afirma-rocio-nahle-al-poner-en-marcha-60-autobuses-atenas-en-xalapa/"
+        ]
+      ],
+      "author": "Redacción Bruja Tiangüera",
+      "published": false,
+      "url": "/articulo.html?id=atenas-xalapa"
+    },
+    {
+      "id": "nuevo-frente-frio-30nov",
+      "section": "veracruz",
+      "date": "2026-11-26",
+      "title": "Prevén nuevo frente frío en Veracruz para el lunes 30 de noviembre",
+      "summary": "Protección Civil anticipa lluvias, Norte y descenso térmico.",
+      "body": [
+        "Los modelos meteorológicos anticipan otro sistema frontal desde la tarde o noche del domingo 29, con posible avance por Veracruz el lunes 30 de noviembre.",
+        "Se esperan precipitaciones, viento fuerte de corta duración y oleaje elevado. Mientras tanto, persiste el potencial de lluvia en Los Tuxtlas y las cuencas del Coatzacoalcos y Tonalá. Consulta los avisos oficiales actualizados, pues el pronóstico puede cambiar."
+      ],
+      "sources": [
+        [
+          "XEU",
+          "https://xeu.mx/veracruz/1441719/llegara-nuevo-frente-frio-a-veracruz-pc-preve-norte-y-mas-descenso-de-temperaturas"
+        ],
+        [
+          "Protección Civil",
+          "https://www.veracruz.gob.mx/proteccioncivil/"
+        ]
+      ],
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=nuevo-frente-frio-30nov"
+    },
+    {
+      "id": "corredor-inversiones-comce",
+      "section": "coatzacoalcos",
+      "date": "2026-11-25",
+      "title": "Empresarios buscan atraer inversiones a Coatzacoalcos mediante el Corredor Interoceánico",
+      "summary": "El COMCE Veracruz plantea aprovechar la conectividad internacional para concretar proyectos empresariales.",
+      "body": [
+        "Durante el segundo Veracruz Logistic Forum, Luis Gerardo Cárdenas Hernández, presidente del COMCE Veracruz, destacó el potencial logístico de Coatzacoalcos para conectar mercados internacionales.",
+        "El desafío es transformar esa capacidad de conexión en proyectos productivos concretos. Los anuncios y expectativas empresariales no equivalen todavía a inversiones comprometidas."
+      ],
+      "sources": [
+        [
+          "Diario del Istmo",
+          "https://diariodelistmo.com/coatzacoalcos/comce-veracruz-busca-atraer-inversiones-a-coatzacoalcos-mediante-el-potencial-del-corredor-interoceanico-20261125-0066.html"
+        ]
+      ],
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=corredor-inversiones-comce"
+    },
+    {
       "id": "crit-minatitlan-26nov2026",
       "section": "sureste",
       "title": "Comienza la preparación del terreno para construir el CRIT en Minatitlán",
@@ -1005,7 +1139,7 @@
       ],
       "date": "2026-11-26",
       "author": "Redacción Bruja Tiangüera",
-      "published": true,
+      "published": false,
       "url": "/articulo.html?id=desfile-agua-dulce-26nov2026",
       "sources": [
         [
@@ -1059,19 +1193,19 @@
       "id": "muelles-nanchital-26nov2026",
       "section": "sureste",
       "title": "Proponen recuperar antiguos muelles de Nanchital",
-      "summary": "El municipio busca integrarse a la logística del Corredor Interoceánico.",
+      "summary": "La iniciativa busca aprovechar infraestructura existente para impulsar la economía.",
       "body": [
-        "La Dirección de Desarrollo Económico presentó posibilidades de rehabilitación de los muelles 1 y 2 y espacios industriales para almacenamiento y distribución.",
-        "Según Diario del Istmo, representantes federales solicitaron un proyecto más detallado. Se trata de una propuesta en evaluación, no de una obra aprobada."
+        "En una reunión con Patricia Florentino Zamora, responsable de evaluación de proyectos y unidades coordinadas, se expuso la situación de los antiguos muelles de Nanchital.",
+        "La recuperación se plantea como una posibilidad de desarrollo económico. La información disponible no confirma presupuesto, fecha de inicio ni autorización definitiva de obras."
       ],
-      "date": "2026-11-26",
+      "date": "2026-11-25",
       "author": "Redacción Bruja Tiangüera",
-      "published": true,
+      "published": false,
       "url": "/articulo.html?id=muelles-nanchital-26nov2026",
       "sources": [
         [
-          "Diario del Istmo",
-          "https://diariodelistmo.com/estatal/proponen-reactivar-antiguos-muelles-de-nanchital-para-impulsar-el-desarrollo-economico-20261125-0089.html"
+          "Diario del Istmo, cobertura del Corredor",
+          "https://diariodelistmo.com/tema/corredor-interoceanico-t786254"
         ]
       ]
     },
@@ -1399,7 +1533,7 @@
       "summary": "El domingo 6 de diciembre, de 10:00 a. m. a 8:00 p. m., el Salón Miramar recibirá un bazar gratuito con presentaciones artísticas y el Concurso de la Rama Navideña.",
       "date": "2026-11-24",
       "author": "Redacción Bruja Tiangüera",
-      "published": true,
+      "published": false,
       "url": "/articulo.html?id=dadiva-coatzacoalcos",
       "body": [
         "La Asociación Dádiva Ayudando a Crecer A. C. invita al Gran Bazar Navideño 2026, una jornada para convivir en familia, apoyar a los emprendedores y disfrutar de las expresiones artísticas de Coatzacoalcos. La cita será el domingo 6 de diciembre en el Salón Miramar, con entrada gratuita y actividades de 10:00 de la mañana a 8:00 de la noche.",
@@ -1655,7 +1789,7 @@
       ],
       "date": "2026-11-24",
       "author": "Redacción Bruja Tiangüera",
-      "published": true,
+      "published": false,
       "url": "/articulo.html?id=desfiles-las-choapas-2026"
     },
     {
