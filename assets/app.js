@@ -1,7 +1,7 @@
 // Bruja Tiangüera — navegación y noticias v6 · 3 noticias automáticas por sección y prioridad editorial
 (async()=>{
  let cfg={};try{const r=await fetch('/data/config.json',{cache:'no-store'});if(r.ok)cfg=await r.json()}catch(e){}
- let el=document.getElementById('edition-date');if(el)el.textContent=cfg.edition||'Edición mensual';
+ let el=document.getElementById('edition-date');if(el)el.textContent=cfg.edition||'Revista digital';
  el=document.getElementById('sponsor-name');if(el)el.textContent=cfg.sponsor?.name||'Espacio disponible';
  if(cfg.sponsor?.color)document.documentElement.style.setProperty('--sponsor',cfg.sponsor.color);
  let form=document.getElementById('buscar');if(form)form.addEventListener('submit',e=>{e.preventDefault();let q=(document.getElementById('q')?.value||'').trim().toLowerCase();let links=[...document.querySelectorAll('.tile,.preview-card,.mag-card')];let found=links.find(a=>a.textContent.toLowerCase().includes(q));if(found)location.href=found.href;else alert('No se encontró una sección con ese nombre.')});
