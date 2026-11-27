@@ -1997,11 +1997,12 @@
       "author": "Redacción Bruja Tiangüera",
       "editorial_owner": "admin",
       "date": "2026-11-27",
-      "published": true,
+      "published": false,
       "url": "/articulo.html?id=23d652a2-d681-4616-a497-0ed40877a76e",
       "image": "",
       "updatedAt": "2026-11-27T20:04:06.736Z",
-      "sources": []
+      "sources": [],
+      "archivedAt": "2026-11-27T20:33:12.447Z"
     }
   ],
   "editorial_correspondents": {
