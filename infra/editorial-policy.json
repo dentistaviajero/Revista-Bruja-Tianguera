@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "timezone": "America/Mexico_City",
+  "schedule": {
+    "rss": "0 12 * * *",
+    "alerts": "*/10 * * * *",
+    "municipal": "0 */2 * * *",
+    "weather": {
+      "onOpen": true,
+      "visibleRefreshMinutes": 10
+    }
+  },
+  "roles": {
+    "admin": {
+      "all": true,
+      "attributeToCorrespondent": true
+    },
+    "angel": {
+      "articles": "own",
+      "commercial": "own",
+      "events": "own"
+    },
+    "ambar": {
+      "articles": "own",
+      "commercial": "own",
+      "events": "own"
+    },
+    "annie": {
+      "articles": "own"
+    }
+  },
+  "manualContent": [
+    "colores",
+    "cuponero",
+    "entrevistas",
+    "negocios",
+    "anunciantes",
+    "eventos",
+    "reportajes"
+  ],
+  "publication": {
+    "activeArticlesPerSection": 5,
+    "archiveInsteadOfDelete": true
+  },
+  "security": {
+    "enforceOnServer": true,
+    "credentialsInSecrets": true,
+    "legacyOwner": "admin"
+  },
+  "status": "specification-only"
+}
