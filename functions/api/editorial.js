@@ -20,6 +20,23 @@ const read=await fetch(repo+"?ref=main",{headers});if(!read.ok)return response({
 const file=await read.json();const d=JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(file.content.replace(/\s/g,"")),c=>c.charCodeAt(0))));
 const articles=d.editorial_articles||[],can=a=>admin||a.editorial_owner===user;
 const authors=Object.fromEntries(Object.entries(d.editorial_correspondents||{}).filter(([id])=>admin||id===owner).map(([id,v])=>[id,v.name]));
+if(input.action.startsWith("commercial_")){
+if(!["admin","angel","ambar"].includes(user))return response({error:"No autorizado"},403);
+const records=d.commercial_records||[];if(input.action==="commercial_list")return response({records});
+const v=input.record||{},old=records.find(x=>x.id===v.id);if(v.id&&!old)return response({error:"Registro inexistente"},404);
+if(input.action==="commercial_remove"||input.action==="commercial_renew"){if(!old)return response({error:"Registro inexistente"},404);if(input.action==="commercial_remove")old.active=false;else{old.active=true;old.renewedAt=new Date().toISOString()}}
+else if(input.action==="commercial_save"){if(!["colores","cupones","negocios","entrevistas","sponsors","anunciate"].includes(v.kind)||!clean(v.name,200))return response({error:"Completa nombre y sección"},400);
+const item={...old,id:old?.id||crypto.randomUUID(),kind:v.kind,name:clean(v.name,200),category:clean(v.category,100),tier:clean(v.tier,30),title:clean(v.title,220),description:clean(v.description,30000),phone:clean(v.phone,30),facebook:https(v.facebook),instagram:https(v.instagram),social:https(v.social),video:https(v.video),destination:https(v.destination)||(/^\d{10}$/.test(v.destination||"")?"https://wa.me/52"+v.destination:""),image:https(v.image),createdAt:old?.createdAt||new Date().toISOString(),renewedAt:old?.renewedAt||new Date().toISOString(),active:true};
+if(item.phone&&!/^\d{10}$/.test(item.phone))return response({error:"WhatsApp debe tener 10 dígitos"},400);
+if(v.image_upload){const m=/^data:image\/(jpeg|png);base64,([A-Za-z0-9+/=]+)$/.exec(v.image_upload);if(!m||m[2].length>2796204)return response({error:"Imagen inválida o mayor de 2 MB"},400);const b=atob(m[2]);if(!(m[1]==="jpeg"?b.startsWith("\xff\xd8\xff"):b.startsWith("\x89PNG\r\n\x1a\n")))return response({error:"Imagen inválida"},400);const path="assets/editorial/"+crypto.randomUUID()+"."+(m[1]==="jpeg"?"jpg":"png");const up=await fetch(repo.replace("data/config.json",path),{method:"PUT",headers,body:JSON.stringify({message:"Imagen comercial",branch:"main",content:m[2]})});if(!up.ok)return response({error:"No se pudo subir imagen"},502);item.image="https://brujarevista.pages.dev/"+path}
+if(item.kind==="sponsors"&&(!item.image||!item.destination))return response({error:"Falta logo o destino"},400);
+if(item.kind==="sponsors"&&records.filter(x=>x.kind==="sponsors"&&x.active&&x.id!==item.id).length>=3)return response({error:"Los tres espacios están ocupados"},400);
+if(item.kind==="cupones"&&!item.image)return response({error:"Falta imagen del cupón"},400);
+if(old)records[records.indexOf(old)]=item;else records.push(item);
+if(item.kind==="entrevistas")for(const x of records.filter(x=>x.kind==="entrevistas"&&x.active).sort((a,b)=>b.createdAt.localeCompare(a.createdAt)).slice(2))x.active=false;
+}else return response({error:"Acción inválida"},400);
+d.commercial_records=records;const bytes=new TextEncoder().encode(JSON.stringify(d,null,2)+"\n");let binary="";for(const b of bytes)binary+=String.fromCharCode(b);const write=await fetch(repo,{method:"PUT",headers,body:JSON.stringify({message:"Gestión comercial: "+user,branch:"main",sha:file.sha,content:btoa(binary)})});return write.ok?response({ok:true}):response({error:"No se pudo guardar; vuelve a intentar"},503);
+}
 if(input.action==="list")return response({user,authors,articles:articles.filter(can)});
 if(!["save","archive"].includes(input.action))return response({error:"Acción desconocida"},400);
 if(input.action==="archive"){const a=articles.find(x=>x.id===input.id);if(!a||!can(a))return response({error:"No autorizado"},403);a.published=false;a.archivedAt=new Date().toISOString()}
