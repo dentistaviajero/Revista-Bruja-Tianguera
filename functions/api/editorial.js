@@ -9,7 +9,7 @@ async function equal(a,b){const enc=new TextEncoder();const x=new Uint8Array(awa
 export async function onRequestPost({request,env}){
 try{
 if(request.headers.get("Origin")!==new URL(request.url).origin)return response({error:"Origen no autorizado"},403);
-if(!env.EDITORIAL_GITHUB_TOKEN)return response({error:"Portal pendiente de configuración privada"},503);
+if(!env.EDITORIAL_GITHUB_TOKEN)return response({error:"Configuración de producción pendiente: falta el secreto EDITORIAL_GITHUB_TOKEN"},503);
 let user,password;try{const raw=new TextDecoder().decode(Uint8Array.from(atob((request.headers.get("Authorization")||"").replace(/^Basic /,"")),c=>c.charCodeAt(0)));const i=raw.indexOf(":");user=raw.slice(0,i);password=raw.slice(i+1)}catch{return response({error:"Acceso no autorizado"},401)}
 const secret=Object.hasOwn(roles,user)&&env["EDITORIAL_PASSWORD_"+user.toUpperCase()];
 if(!secret||secret.length<16||!await equal(password,secret))return response({error:"Acceso no autorizado"},401);
