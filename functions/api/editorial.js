@@ -6,15 +6,23 @@ const clean=(s,n)=>String(s||"").trim().slice(0,n);
 const safe=(s,n)=>clean(s,n).replace(/[<>&]/g,c=>({"<":"＜",">":"＞","&":"＆"}[c]));
 const https=s=>{try{const u=new URL(s);return u.protocol==="https:"&&!u.username&&!u.password?u.href:""}catch{return ""}};
 async function equal(a,b){const enc=new TextEncoder();const x=new Uint8Array(await crypto.subtle.digest("SHA-256",enc.encode(a))),y=new Uint8Array(await crypto.subtle.digest("SHA-256",enc.encode(b)));let v=0;for(let i=0;i<x.length;i++)v|=x[i]^y[i];return v===0}
+const hex=b=>Array.from(new Uint8Array(b),x=>x.toString(16).padStart(2,"0")).join("");
+async function derive(password,salt){const key=await crypto.subtle.importKey("raw",new TextEncoder().encode(password),"PBKDF2",false,["deriveBits"]);return hex(await crypto.subtle.deriveBits({name:"PBKDF2",hash:"SHA-256",salt:new TextEncoder().encode(salt),iterations:100000},key,256))}
 export async function onRequestPost({request,env}){
 try{
 if(request.headers.get("Origin")!==new URL(request.url).origin)return response({error:"Origen no autorizado"},403);
 if(!env.EDITORIAL_GITHUB_TOKEN)return response({error:"Configuración de producción pendiente: falta el secreto EDITORIAL_GITHUB_TOKEN"},503);
 let user,password;try{const raw=new TextDecoder().decode(Uint8Array.from(atob((request.headers.get("Authorization")||"").replace(/^Basic /,"")),c=>c.charCodeAt(0)));const i=raw.indexOf(":");user=raw.slice(0,i);password=raw.slice(i+1)}catch{return response({error:"Acceso no autorizado"},401)}
-const secret=Object.hasOwn(roles,user)&&env["EDITORIAL_PASSWORD_"+user.toUpperCase()];
-if(!secret||secret.length<16||!await equal(password,secret))return response({error:"Acceso no autorizado"},401);
+user=user.trim().normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+if(!Object.hasOwn(roles,user)||password.length>256)return response({error:"Acceso no autorizado"},401);
+const secret=env["EDITORIAL_PASSWORD_"+user.toUpperCase()];
+let saved=null;
+if(env.EDITORIAL_AUTH){await env.EDITORIAL_AUTH.prepare("CREATE TABLE IF NOT EXISTS credentials (username TEXT PRIMARY KEY, salt TEXT NOT NULL, hash TEXT NOT NULL)").run();saved=await env.EDITORIAL_AUTH.prepare("SELECT salt,hash FROM credentials WHERE username=?").bind(user).first()}
+const valid=saved?await equal(await derive(password,saved.salt),saved.hash):secret&&secret.length>=16&&await equal(password,secret);
+if(!valid)return response({error:"Acceso no autorizado"},401);
 const raw=await request.text();if(raw.length>3000000)return response({error:"Solicitud demasiado grande"},413);
 const input=JSON.parse(raw),admin=user==="admin",owner=roles[user];
+if(input.action==="change_password"){if(!env.EDITORIAL_AUTH)return response({error:"Cambio de contraseña pendiente de activar almacenamiento privado"},503);const next=input.new_password;if(typeof next!=="string"||next.length<16||next.length>128||next!==input.confirm_password||next===password)return response({error:"Usa una contraseña diferente de 16 a 128 caracteres y confirma ambas entradas"},400);const salt=hex(crypto.getRandomValues(new Uint8Array(24))),hash=await derive(next,salt);const result=saved?await env.EDITORIAL_AUTH.prepare("UPDATE credentials SET salt=?,hash=? WHERE username=? AND hash=?").bind(salt,hash,user,saved.hash).run():await env.EDITORIAL_AUTH.prepare("INSERT OR IGNORE INTO credentials(username,salt,hash) VALUES(?,?,?)").bind(user,salt,hash).run();if(result.meta.changes!==1)return response({error:"La contraseña cambió durante la operación; vuelve a ingresar"},409);return response({ok:true})}
 const headers={Authorization:"Bearer "+env.EDITORIAL_GITHUB_TOKEN,Accept:"application/vnd.github+json","User-Agent":"BrujaEditorial","Content-Type":"application/json"};
 const read=await fetch(repo+"?ref=main",{headers});if(!read.ok)return response({error:"No se pudo leer el archivo editorial"},503);
 const file=await read.json();const d=JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(file.content.replace(/\s/g,"")),c=>c.charCodeAt(0))));
