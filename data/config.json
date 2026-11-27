@@ -131,7 +131,7 @@
         ]
       ],
       "author": "Redacción Bruja Tiangüera",
-      "published": false,
+      "published": true,
       "url": "/articulo.html?id=atenas-xalapa"
     },
     {
@@ -199,7 +199,7 @@
         ]
       ],
       "date": "2026-11-26",
-      "published": true,
+      "published": false,
       "author": "Redacción Bruja Tiangüera",
       "url": "/articulo.html?id=crit-minatitlan-26nov2026"
     },
@@ -1200,7 +1200,7 @@
       ],
       "date": "2026-11-25",
       "author": "Redacción Bruja Tiangüera",
-      "published": false,
+      "published": true,
       "url": "/articulo.html?id=muelles-nanchital-26nov2026",
       "sources": [
         [
@@ -1562,7 +1562,7 @@
       "summary": "La Orquesta Filarmónica de Boca del Río y Ballet PROVER preparan una función especial de uno de los clásicos de la temporada.",
       "date": "2026-11-24",
       "author": "Redacción Bruja Tiangüera",
-      "published": true,
+      "published": false,
       "url": "/articulo.html?id=cascanueces-foro-boca",
       "body": [
         "La cartelera cultural de Veracruz entra en ambiente navideño con El Cascanueces, una gala invernal de ballet anunciada para el viernes 27 de noviembre de 2026 a las 20:00 horas en Foro Boca.",
