@@ -45,6 +45,78 @@
   "sponsors": [],
   "editorial_articles": [
     {
+      "id": "norte-sur-27nov2026",
+      "section": "las-choapas",
+      "title": "Persistirán las lluvias en Las Choapas durante el fin de semana",
+      "summary": "El pronóstico regional anticipa un nuevo repunte de precipitaciones entre sábado y domingo.",
+      "body": [
+        "El meteorólogo Isidro Cano Luna informó este viernes que la cuenca del Coatzacoalcos seguirá bajo condiciones húmedas y frescas, incluyendo Las Choapas y Agua Dulce.",
+        "El especialista prevé un incremento de las precipitaciones desde la tarde del sábado 28. Se trata de un pronóstico regional, no de una inundación confirmada. Conviene consultar los avisos oficiales antes de viajar."
+      ],
+      "sources": [
+        [
+          "Isidro Cano Luna, Diario del Istmo, 27 de noviembre",
+          "https://diariodelistmo.com/coatzacoalcos/isidro-cano-luna-anticipa-lluvias-y-evento-de-norte-en-el-sur-de-veracruz-preven-repunte-el-fin-de-semana-20261126-0084.html"
+        ],
+        [
+          "Diario del Istmo, pronóstico regional",
+          "https://diariodelistmo.com/coatzacoalcos/primera-tormenta-invernal-llegara-a-mexico-como-afectara-a-coatzacoalcos-y-al-sur-de-veracruz-20261126-0023.html"
+        ]
+      ],
+      "date": "2026-11-27",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=norte-sur-27nov2026"
+    },
+    {
+      "id": "bolsas-china-rebote-27nov2026",
+      "section": "finanzas",
+      "title": "China impulsa la recuperación bursátil con señales de apoyo estatal",
+      "summary": "Las bolsas chinas avanzan tras anuncios de respaldo al mercado de capitales.",
+      "body": [
+        "El gobierno chino pidió una mayor participación de inversionistas respaldados por el Estado para estabilizar los mercados. El índice CSI300 avanzó 4.2% el viernes, según Reuters.",
+        "La recuperación se produce tras meses de incertidumbre económica y tecnológica. No garantiza que las pérdidas anteriores se hayan revertido ni constituye una recomendación de inversión."
+      ],
+      "sources": [
+        [
+          "Reuters, 27 de noviembre",
+          "https://www.reuters.com/markets/europe/china-stocks-shoot-up-after-beijing-vows-support-2026-11-27/"
+        ],
+        [
+          "Reuters, reunión del gabinete chino",
+          "https://www.reuters.com/world/china-strengthen-defense-against-imported-risks-capital-markets-2026-11-27/"
+        ]
+      ],
+      "date": "2026-11-27",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=bolsas-china-rebote-27nov2026"
+    },
+    {
+      "id": "nevada-durango-27nov2026",
+      "section": "nacional",
+      "title": "La primera tormenta invernal deja nieve en la sierra de Durango",
+      "summary": "Guanaceví registra nieve mientras otras regiones enfrentan oleaje y lluvias.",
+      "body": [
+        "La Jornada informó este viernes que la primera tormenta invernal de la temporada dejó nieve en Guanaceví, Durango, durante la noche del jueves.",
+        "En Veracruz se reportaron deslaves asociados al frente frío y en Baja California hubo restricciones portuarias por oleaje. Los fenómenos tienen efectos distintos según la región; es importante consultar los avisos locales."
+      ],
+      "sources": [
+        [
+          "La Jornada, corresponsales, 27 de noviembre",
+          "https://www.jornada.com.mx/2026/11/27/estados/030n1est"
+        ],
+        [
+          "Diario del Istmo, pronóstico regional",
+          "https://diariodelistmo.com/coatzacoalcos/primera-tormenta-invernal-llegara-a-mexico-como-afectara-a-coatzacoalcos-y-al-sur-de-veracruz-20261126-0023.html"
+        ]
+      ],
+      "date": "2026-11-27",
+      "author": "Redacción Bruja Tiangüera",
+      "published": true,
+      "url": "/articulo.html?id=nevada-durango-27nov2026"
+    },
+    {
       "id": "greenpeace-krem1-noviembre",
       "section": "las-choapas",
       "date": "2026-11-26",
