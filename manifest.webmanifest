@@ -11,7 +11,7 @@
   "theme_color": "#451056",
   "icons": [
     {
-      "src": "/assets/icono-bruja.svg",
+      "src": "/assets/icono-bruja.svg?v=2",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
