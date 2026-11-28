@@ -1,6 +1,6 @@
 /* Revista Bruja Tiangüera: invitación PWA, campana y avisos locales */
 (()=>{'use strict';
-const ROOT='/secciones/proximos-eventos.html',ICON='/assets/icono-bruja.svg';
+const ROOT='/secciones/proximos-eventos.html',ICON='/assets/icono-bruja.png?v=3';
 let deferred=null,records=[],seen=new Set();
 const store=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};
 const read=(k,def)=>{try{return JSON.parse(localStorage.getItem(k))??def}catch{return def}};
