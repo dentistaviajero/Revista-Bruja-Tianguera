@@ -7,11 +7,11 @@
   "start_url": "/?origen=app",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#fff8fd",
+  "background_color": "#451056",
   "theme_color": "#451056",
   "icons": [
     {
-      "src": "/assets/icono-bruja.png?v=3",
+      "src": "/assets/icono-bruja.png?v=4",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
