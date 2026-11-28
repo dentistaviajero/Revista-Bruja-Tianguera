@@ -11,10 +11,10 @@
   "theme_color": "#451056",
   "icons": [
     {
-      "src": "/assets/icono-bruja.svg?v=2",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "/assets/icono-bruja.png?v=3",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
